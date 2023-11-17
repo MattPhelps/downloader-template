@@ -14,7 +14,7 @@ import YtSaver from "@/components/itube-page-components/yt-saver-video-downloade
 import FAQAndTips from "@/components/itube-page-components/faqs-and-tips/FAQAndTips";
 import FooterTop from "@/components/itube-page-components/footer-top-section/FooterTop";
 
-const pageTitle = `Buy iTubeGo | ${siteConfig.siteName}`;
+const pageTitle = `Buy iTubeGo Today | ${siteConfig.siteName}`;
 const pageDescription = `Welcome to iTubeGo, the premium video downloading solution! Experience high-quality, fast, and versatile video downloads from a wide range of platforms. Discover the advanced features and benefits of iTubeGo, your ultimate tool for seamless video saving and offline viewing.`;
 
 export const metadata: Metadata = {
