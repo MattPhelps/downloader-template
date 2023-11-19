@@ -27,7 +27,7 @@ const data = [
     },
 ]
 
-const AwardsAndReviews = () => {
+const Awards = () => {
     return (
         <div className='wraper'>
             <div className="content">
@@ -55,4 +55,4 @@ const AwardsAndReviews = () => {
     )
 }
 
-export default AwardsAndReviews
+export default Awards

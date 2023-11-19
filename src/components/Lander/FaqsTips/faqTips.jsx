@@ -3,6 +3,7 @@ import Link from 'next/link';
 import React, { useState } from 'react'
 import { IoIosArrowDroprightCircle } from "react-icons/io";
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
+import siteConfig from '../../../../siteConfig';
 
 const data = [
     {
@@ -10,12 +11,12 @@ const data = [
         answer: "Generally, it is only illegal to download videos to your devices if the content is copyrighted and you have not obtained permission to make the downloaded contents for business, but it is legal to download videos to your devices for personal use."
     },
     {
-        question: "2. Is YT Saver secure?",
-        answer: "Yes, YT Saver is 100% safe to use. No malware or trojans will be added when you download this software to your computer, and your personal information will remain confidential."
+        question: `2. Is ${siteConfig.promotedBrand} secure?`,
+        answer: `Yes, ${siteConfig.promotedBrand} is 100% safe to use. No malware or trojans will be added when you download this software to your computer, and your personal information will remain confidential.`
     },
     {
         question: "3. What is the difference between the free and the paid version?",
-        answer: "Although the free trial version is limited, we always recommend our new users to try the free version first before buying YT Saver. The trial version only provides you 3 downloads, 1 playlist, limited output formats, while the paid version doesn't have any limitations."
+        answer: `Although the free trial version is limited, we always recommend our new users to try the free version first before buying ${siteConfig.promotedBrand}. The trial version only provides you 3 downloads, 1 playlist, limited output formats, while the paid version doesn't have any limitations.`
     },
     {
         question: "4. How to transfer downloaded video or audio files to mobile phone?",
@@ -23,7 +24,7 @@ const data = [
     },
 ]
 
-const FAQAndTips = () => {
+const FaqsTips = () => {
     return (
         <div className='wrapper bg-[#F5F6F6]'>
             <div className='content py-[50px] center px-[10px] sm:px-[20px]'>
@@ -69,7 +70,7 @@ const FAQAndTips = () => {
     )
 }
 
-export default FAQAndTips
+export default FaqsTips
 
 
 const FAQ = () => {

@@ -9,12 +9,11 @@ import logo from "../../../public/images/logo/logo.svg";
 import menuData from "./menuData";
 import DropDown from "./DropDown";
 import siteConfig from "../../../siteConfig";
-import ThemeSwicher from "@/components/theme-provider-swicher/themeSwicher";
+import ThemeSwitcher from "@/components/ThemeSwitcher/themeSwitcher";
 import { event } from "../../../analytics";
 
 const Header = () => {
   const [navigationOpen, setNavigationOpen] = useState(false);
-  const { data: session } = useSession();
   const pathUrl = usePathname();
 
 
@@ -125,7 +124,7 @@ const Header = () => {
 
             <div className="flex items-center gap-6 mt-7 lg:mt-0">
               <>
-                <ThemeSwicher />
+                <ThemeSwitcher />
 
                 <Link
                   href={siteConfig.promotedBrandURL}

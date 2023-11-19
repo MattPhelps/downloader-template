@@ -1,12 +1,13 @@
 import Link from 'next/link';
 import React from 'react'
 import { FaWindows } from "react-icons/fa";
+import siteConfig from '../../../../siteConfig';
 
-const HeroSection = () => {
+const LanderHero = () => {
     return (
         <div className='w-full hero-bg'>
             <div className='w-full center flex flex-col py-[40px] 700:py-[80px] px-[30px] 700:px-[50px] 800:px-[100px] 1000:px-[170px]'>
-                <h1 className='text-[36px] text-center leading-[1.1] text-[black]'>YT Saver Video Downloader & Converter</h1>
+                <h1 className='text-[36px] text-center leading-[1.1] text-[black]'>{siteConfig.promotedBrand} Video Downloader</h1>
                 <p className='700:text-[20px] text-center mt-[10px] 800:px-[100px] text-[black]'>
                     Download <span className='text-primary'>Video, Audio, Playlists</span> from 10,000+ websites, <span className='text-primary'>Convert Video</span> to MP4, MOV, AAC, WAV and More.
                 </p>
@@ -46,4 +47,4 @@ const HeroSection = () => {
     )
 }
 
-export default HeroSection
+export default LanderHero

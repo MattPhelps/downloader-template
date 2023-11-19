@@ -1,4 +1,5 @@
 import React from 'react'
+import siteConfig from '../../../../siteConfig';
 
 const FooterTop = () => {
     return (
@@ -8,7 +9,7 @@ const FooterTop = () => {
                     {/* First Ul */}
                     <div className='flex flex-col gap-[15px]'>
                         <h1 className='text-[24px] leading-[1.3]'>
-                            YT Saver Video Downloader Release info
+                        {siteConfig.promotedBrand} Video Downloader Release info
                         </h1>
                         <ul className='list-disc list-inside sm:text-[18px]'>
                             <li>
@@ -28,7 +29,7 @@ const FooterTop = () => {
                     {/* Second Ul */}
                     <div className='flex flex-col gap-[15px]'>
                     <h1 className='text-[24px] leading-[1.3]'>
-                            System Requirements for YT Saver Video Converter
+                            System Requirements for {siteConfig.promotedBrand} Video Downloader
 
                         </h1>
                         <ul className='list-disc list-inside sm:text-[18px]'>

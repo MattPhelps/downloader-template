@@ -21,7 +21,6 @@ export default function Home() {
       <Hero />
       <Features />
       <Faq />
-      {/* <CallToAction /> */}
     </>
   );
 }

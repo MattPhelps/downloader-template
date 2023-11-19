@@ -1,13 +1,14 @@
 "use client"
 import React, { useState } from 'react'
+import siteConfig from '../../../../siteConfig';
 
-const YtSaver = () => {
+const DownloadBar = () => {
     const [downloadFor, setDownloadFor] = useState("windows")
     return (
         <div className='wrapper bg-[#1F2937]'>
             <div className='content center flex flex-col py-[40px] sm:py-[50px] px-[20px]'>
                 <h1 className='text-center text-white text-[30px]'>
-                    YT Saver Video Downloader
+                {siteConfig.promotedBrand} Video Downloader
                 </h1>
                 {/* buttons */}
                 <div className='w-full center flex flex-col 600:flex-row  gap-[25px] 600:gap-[40px] pt-[30px]'>
@@ -58,4 +59,4 @@ const YtSaver = () => {
     )
 }
 
-export default YtSaver
+export default DownloadBar

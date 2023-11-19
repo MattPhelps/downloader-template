@@ -1,4 +1,5 @@
 import React from 'react'
+import siteConfig from '../../../../siteConfig';
 
 const Features = () => {
     return (
@@ -20,7 +21,7 @@ const Features = () => {
                                         Download Videos with Built-in Browser
                                     </h1>
                                     <p className='text-center text-[#000000cc] 800:text-start'>
-                                        YT Saver comes with a built-in web browser, which allows you to browse video/audio sharing sites easily and download videos direclty within the websites.
+                                    {siteConfig.promotedBrand} comes with a built-in web browser, which allows you to browse video/audio sharing sites easily and download videos direclty within the websites.
                                     </p>
                                 </div>
                             </div>
@@ -33,10 +34,10 @@ const Features = () => {
                                 </div>
                                 <div className='flex flex-col gap-[13px] max-w-[370px]'>
                                     <h1 className='text-[24px] text-[black] text-center 800:text-start leading-[1.1]'>
-                                        Unlimited Download with YT Saver Downloader
+                                        Unlimited Download with {siteConfig.promotedBrand} Downloader
                                     </h1>
                                     <p className='text-center text-[#000000cc] 800:text-start'>
-                                        With YT Saver PRO you can download unlimited videos and playlists from streaming sites and access your videos when offline, and you can download multiple videos in bulk at the same time.
+                                        With {siteConfig.promotedBrand} PRO you can download unlimited videos and playlists from streaming sites and access your videos when offline, and you can download multiple videos in bulk at the same time.
                                     </p>
                                 </div>
                             </div>
@@ -52,7 +53,7 @@ const Features = () => {
                                         Download Videos at Ultra Fast Speed
                                     </h1>
                                     <p className='text-center text-[#000000cd] 800:text-start'>
-                                        YT Saver Video Downloader gives you 10X faster video download speed, which allows you to downlaod videos at ultra fast speed and get the fastest conversion speed.
+                                    {siteConfig.promotedBrand} Video Downloader gives you 10X faster video download speed, which allows you to downlaod videos at ultra fast speed and get the fastest conversion speed.
                                     </p>
                                 </div>
                             </div>
@@ -68,7 +69,7 @@ const Features = () => {
                                         Protect Your Downloaded Videos Privacy
                                     </h1>
                                     <p className='text-center 800:text-start text-[#000000ca]'>
-                                        To protect your video and audio from prying eyes and miswatching by children, YT Saver provides a Private Mode to keep your downloaded contents in a password-protected folder.
+                                        To protect your video and audio from prying eyes and miswatching by children, {siteConfig.promotedBrand} provides a Private Mode to keep your downloaded contents in a password-protected folder.
                                     </p>
                                 </div>
                             </div>
