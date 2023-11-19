@@ -4,7 +4,7 @@ import Link from "next/link";
 import siteConfig from "../../../../siteConfig";
 import { useState } from "react";
 import ClipLoader from "react-spinners/ClipLoader";
-import Render from "@/components/Render/render";
+import Render from "../../../components/Render/render";
 
 const Hero = () => {
   return (
