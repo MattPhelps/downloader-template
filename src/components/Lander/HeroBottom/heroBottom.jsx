@@ -7,27 +7,27 @@ const data = [
     {
         title: "Download Videos in High Quality Easily",
         desc: "YT Saver offers video resolutions in a range of 480p, 360p, 720p, 1080p HD, 2K, 4K and 8K, and you can download videos to MP4, MOV, 3GP, AAC, WAV, and other 20+ output formats.",
-        img: "/slide-1.webp"
+        img: "/images/lander/screenshots/slide-1.webp"
     },
     {
         title: "Download Complete Playlist and Channel",
         desc: "YT Saver Video Downloader allows you to download playlists, channels, and multiple videos in one click to various formats with 10X faster speed.",
-        img: "/slide-2.webp"
+        img: "/images/lander/screenshots/slide-2.webp"
     },
     {
         title: "Convert Video Without Any Quality Loss",
         desc: "YT Saver Video Converter supports to convert video to MP4, 3GP, MOV, WMV, AAC, WAV, OGG, AIFF, HEVC MP4, HEVC MKV and other formats which is suitable for iPhone, iPad, Android, and Anroid Tablets.",
-        img: "/slide-3.webp"
+        img: "/images/lander/screenshots/slide-3.webp"
     },
     {
         title: "Cut Video and Audio with Built-in Browser",
         desc: "YT Saver allows you to cut, trim, and crop online videos to MP4, MOV, AAC and other formats you want by using built-in video cutter.",
-        img: "/slide-4.webp"
+        img: "/images/lander/screenshots/slide-4.webp"
     },
     {
         title: "Backup Audio up to 320kbps",
         desc: "YT Saver can extract audio from video and save it to any quality you want, like 64kbps, 128kbps, 256kbps, 320kbps, it also supports backup audio from most popular streaming sites.",
-        img: "/slide-5.webp"
+        img: "/images/lander/screenshots/slide-5.webp"
     },
 ]
 
@@ -57,27 +57,27 @@ const HeroBottom = () => {
                 <div className='flex items-center sm:w-autooverflow-hidden relative'>
                     <div onClick={() => setSlide(0)} className={`flex flex-col center gap-[20px] py-[35px] min-w-[165px] cursor-pointer ${slide === 0 ? "flex border-b-[4px] border-[blue]" : "hidden 900:flex"}`}>
                         {/* eslint-disable-next-line */}
-                        <img src="/ico1.png" className='w-[42px] h-[42px]' alt="" />
+                        <img src="/images/lander/icons/ico1.png" className='w-[42px] h-[42px]' alt="" />
                         <p className='leading-[1] text-[black]'>Download Video</p>
                     </div>
                     <div onClick={() => setSlide(1)} className={`flex flex-col center gap-[20px] py-[35px] min-w-[165px] cursor-pointer ${slide === 1 ? "flex border-b-[4px] border-[blue]" : "hidden 900:flex"}`}>
                         {/* eslint-disable-next-line */}
-                        <img src="/ico2.png" className='w-[42px] h-[42px]' alt="" />
+                        <img src="/images/lander/icons/ico2.png" className='w-[42px] h-[42px]' alt="" />
                         <p className='leading-[1] text-[black]'>Download Playlist</p>
                     </div>
                     <div onClick={() => setSlide(2)} className={`flex flex-col center gap-[20px] py-[35px] min-w-[165px] cursor-pointer ${slide === 2 ? "flex border-b-[4px] border-[blue]" : "hidden 900:flex"}`}>
                         {/* eslint-disable-next-line */}
-                        <img src="/ico3.png" className='w-[42px] h-[42px]' alt="" />
+                        <img src="/images/lander/icons/ico3.png" className='w-[42px] h-[42px]' alt="" />
                         <p className='leading-[1] text-[black]'>Convert Video</p>
                     </div>
                     <div onClick={() => setSlide(3)} className={`flex flex-col center gap-[20px] py-[35px] min-w-[165px] cursor-pointer ${slide === 3 ? "flex border-b-[4px] border-[blue]" : "hidden 900:flex"}`}>
                         {/* eslint-disable-next-line */}
-                        <img src="/ico4.png" className='w-[42px] h-[42px]' alt="" />
+                        <img src="/images/lander/icons/ico4.png" className='w-[42px] h-[42px]' alt="" />
                         <p className='leading-[1] text-[black]'>Cut Video</p>
                     </div>
                     <div onClick={() => setSlide(4)} className={`flex flex-col center gap-[20px] py-[35px] min-w-[165px] cursor-pointer ${slide === 4 ? "flex border-b-[4px] border-[blue]" : "hidden 900:flex"}`}>
                         {/* eslint-disable-next-line */}
-                        <img src="/ico5.png" className='w-[42px] h-[42px]' alt="" />
+                        <img src="/images/lander/icons/ico5.png" className='w-[42px] h-[42px]' alt="" />
                         <p className='leading-[1] text-[black]'>Backup Video</p>
                     </div>
                 </div>

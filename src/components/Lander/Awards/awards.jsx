@@ -2,28 +2,28 @@ import React from 'react'
 
 const data = [
     {
-        img: "/awards/ar1d.png",
-        hoverImg: "/awards/ar1.png"
+        img: "/images/lander/awards/ar1d.png",
+        hoverImg: "/images/lander/awards/ar1.png"
     },
     {
-        img: "/awards/ar2d.png",
-        hoverImg: "/awards/ar2.png"
+        img: "/images/lander/awards/ar2d.png",
+        hoverImg: "/images/lander/awards/ar2.png"
     },
     {
-        img: "/awards/ar3d.png",
-        hoverImg: "/awards/ar3.png"
+        img: "/images/lander/awards/ar3d.png",
+        hoverImg: "/images/lander/awards/ar3.png"
     },
     {
-        img: "/awards/ar4d.png",
-        hoverImg: "/awards/ar4.png"
+        img: "/images/lander/awards/ar4d.png",
+        hoverImg: "/images/lander/awards/ar4.png"
     },
     {
-        img: "/awards/ar5d.png",
-        hoverImg: "/awards/ar5.png"
+        img: "/images/lander/awards/ar5d.png",
+        hoverImg: "/images/lander/awards/awards/ar5.png"
     },
     {
-        img: "/awards/ar6d.png",
-        hoverImg: "/awards/ar6.png"
+        img: "/images/lander/awards/ar6d.png",
+        hoverImg: "/images/lander/awards/ar6.png"
     },
 ]
 

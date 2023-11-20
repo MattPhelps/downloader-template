@@ -14,7 +14,7 @@ const Features = () => {
                             <div className='flex items-center  800:items-start flex-col 800:flex-row gap-[15px]'>
                                 <div className='800:pt-[10px]'>
                                     {/* eslint-disable-next-line */}
-                                    <img src="/f1.svg" alt="" className='w-[41px] max-w-[41px]' />
+                                    <img src="/images/lander/icons/f1.svg" alt="" className='w-[41px] max-w-[41px]' />
                                 </div>
                                 <div className='flex flex-col gap-[13px] max-w-[370px]'>
                                     <h1 className='text-[24px] text-[black] text-center 800:text-start leading-[1.1]'>
@@ -30,7 +30,7 @@ const Features = () => {
                             <div className='flex items-center  800:items-start flex-col 800:flex-row gap-[15px]'>
                                 <div className='pt-[10px]'>
                                     {/* eslint-disable-next-line */}
-                                    <img src="/f2.svg" alt="" className='w-[41px] max-w-[41px]' />
+                                    <img src="/images/lander/icons/f2.svg" alt="" className='w-[41px] max-w-[41px]' />
                                 </div>
                                 <div className='flex flex-col gap-[13px] max-w-[370px]'>
                                     <h1 className='text-[24px] text-[black] text-center 800:text-start leading-[1.1]'>
@@ -46,7 +46,7 @@ const Features = () => {
                             <div className='flex items-center  800:items-start flex-col 800:flex-row gap-[15px]'>
                                 <div className='pt-[10px]'>
                                     {/* eslint-disable-next-line */}
-                                    <img src="/f3.svg" alt="" className='w-[41px] max-w-[41px]' />
+                                    <img src="/images/lander/icons/f3.svg" alt="" className='w-[41px] max-w-[41px]' />
                                 </div>
                                 <div className='flex flex-col gap-[13px] max-w-[370px]'>
                                     <h1 className='text-[24px] text-[black] text-center 800:text-start leading-[1.1]'>
@@ -62,7 +62,7 @@ const Features = () => {
                             <div className='flex items-center  800:items-start flex-col 800:flex-row gap-[15px]'>
                                 <div className='pt-[10px]'>
                                     {/* eslint-disable-next-line */}
-                                    <img src="/f4.svg" alt="" className='w-[41px] max-w-[41px]' />
+                                    <img src="/images/lander/icons/f4.svg" alt="" className='w-[41px] max-w-[41px]' />
                                 </div>
                                 <div className='flex flex-col gap-[13px] max-w-[370px]'>
                                     <h1 className='text-[24px] text-center text-[black] 800:text-start leading-[1.1]'>
@@ -81,7 +81,7 @@ const Features = () => {
                         <div className='flex flex-col gap-[5px] w-full 600:w-auto'>
                             <button className='bg-[#2A6DF4] hover:bg-blue-700 rounded-[10px] flex items-center gap-[20px] text-[white] text-[20px] font-[700] px-[1.8rem] 800:px-[2.2rem] py-[.8rem]  justify-center'>Free Download
                                 {/* eslint-disable-next-line */}
-                                <img className='w-[27px] h-[27px]' src="/windows.svg" alt="" /></button>
+                                <img className='w-[27px] h-[27px]' src="/images/lander/os/windows.svg" alt="" /></button>
                             <p className='text-[15px] text-[#000000d5] text-center'>
                                 For Windows 7/8/10/11
                             </p>
@@ -89,7 +89,7 @@ const Features = () => {
                         <div className='flex flex-col gap-[5px] w-full 600:w-auto'>
                             <button className='bg-[#2A6DF4] hover:bg-blue-700 w-full 600:w-auto rounded-[10px] flex items-center justify-center gap-[20px] text-[white] text-[20px] font-[700] px-[1.8rem] 800:px-[2.2rem] py-[.8rem] '>Free Download
                                 {/* eslint-disable-next-line */}
-                                <img className='w-[27px] h-[27px]' src="/mac.svg" alt="" /></button>
+                                <img className='w-[27px] h-[27px]' src="/images/lander/os/mac.svg" alt="" /></button>
                             <p className='text-[15px] text-center text-[#000000d4]'>
                                 For MacOS 10.10 or later
                             </p>

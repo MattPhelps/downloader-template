@@ -12,7 +12,7 @@ const Render = () => {
             </p>
             <div className='flex flex-col lg:flex-row gap-[0px] lg:gap-[10px] items-center lg:items-center rounded-[10px] px-[10px]' >
                 <div className='px-[10px] sm:px-0'>
-                    <Image style={{ width: "auto", height: "auto" }} className='max-h-[210px] lg:max-h-[190px] rounded-[10px]' src="/thumnail.jpg" alt="" width={800} height={400} />
+                    <Image style={{ width: "auto", height: "auto" }} className='max-h-[210px] lg:max-h-[190px] rounded-[10px]' src="/images/render/thumbnail.jpg" alt="" width={800} height={400} />
                 </div>
                 <div className='flex flex-col gap-[20px] justify-center lg:px-0 px-[40px] sm:px-0 sm:max-w-[300px] h-full lg:max-w-[210px] py-[15px] items-center'>
                     <div className='flex flex-col gap-[5px] lg:gap-[20px] w-full h-full'>

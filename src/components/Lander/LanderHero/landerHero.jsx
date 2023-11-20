@@ -16,7 +16,7 @@ const LanderHero = () => {
                     <div className='flex flex-col gap-[5px] w-full 600:w-auto'>
                         <button className='bg-[#2A6DF4] hover:bg-blue-700 rounded-[10px] flex items-center gap-[20px] text-[white] text-[20px] font-[700] px-[1.8rem] 800:px-[2.2rem] py-[.8rem] 600:py-[1.25rem] justify-center'>Free Download
                             {/* eslint-disable-next-line */}
-                            <img className='w-[27px] h-[27px]' src="/windows.svg" alt="" /></button>
+                            <img className='w-[27px] h-[27px]' src="/images/lander/os/windows.svg" alt="" /></button>
                         <p className='text-[12px] text-center text-[black]'>
                             For Windows 7/8/10/11 (32 bit user? <Link href={"/"} className='text-blue-500' >click here</Link>)
                         </p>
@@ -24,7 +24,7 @@ const LanderHero = () => {
                     <div className='flex flex-col gap-[5px] w-full 600:w-auto'>
                         <button className='bg-[#2A6DF4] hover:bg-blue-700 w-full 600:w-auto rounded-[10px] flex items-center justify-center gap-[20px] text-[white] text-[20px] font-[700] px-[1.8rem] 800:px-[2.2rem] py-[.8rem] 600:py-[1.25rem]'>Free Download
                             {/* eslint-disable-next-line */}
-                            <img className='w-[27px] h-[27px]' src="/mac.svg" alt="" /></button>
+                            <img className='w-[27px] h-[27px]' src="/images/lander/os/mac.svg" alt="" /></button>
                         <p className='text-[12px] text-center text-[black]'>
                             For MacOS 10.10 or later
                         </p>
@@ -34,13 +34,13 @@ const LanderHero = () => {
                 <div className='flex center mt-[40px]'>
                     <div className='flex items-center gap-[10px]'>
                         {/* eslint-disable-next-line */}
-                        <img src="/star.png" className='max-w-[160px]' alt="" /> <p className='400:text-[18px] text-[black]'>4.8 / 5 (Trustpilot)</p>
+                        <img src="/images/lander/icons/star.png" className='max-w-[160px]' alt="" /> <p className='400:text-[18px] text-[black]'>4.8 / 5 (Trustpilot)</p>
                     </div>
                 </div>
                 {/* Brands */}
                 <div className='center mt-[40px]'>
                     {/* eslint-disable-next-line */}
-                    <img src="/banner-brands.png" className='w-full max-w-[440px]' alt="" />
+                    <img src="/images/lander/icons/banner-brands.png" className='w-full max-w-[440px]' alt="" />
                 </div>
             </div>
         </div>

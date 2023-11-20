@@ -18,13 +18,13 @@ const DownloadBar = () => {
                                 downloadFor === "windows" ?
                                     <>
                                         {/* eslint-disable-next-line */}
-                                        <img className='w-[27px] h-[27px]' src="/windows.svg" alt="" />
+                                        <img className='w-[27px] h-[27px]' src="/images/lander/os/windows.svg" alt="" />
                                     </>
 
                                     :
                                     <>
                                         {/* eslint-disable-next-line */}
-                                        <img className='w-[27px] h-[27px]' src="/mac.svg" alt="" />
+                                        <img className='w-[27px] h-[27px]' src="/images/lander/os/mac.svg" alt="" />
                                     </>
                             }
                         </button>
@@ -35,13 +35,13 @@ const DownloadBar = () => {
                                 downloadFor === "mac" ?
                                     <>
                                         {/* eslint-disable-next-line */}
-                                        <img className='w-[27px] h-[27px]' src="/mac.svg" alt="" />
+                                        <img className='w-[27px] h-[27px]' src="/images/lander/os/mac.svg" alt="" />
                                     </>
 
                                     :
                                     <>
                                         {/* eslint-disable-next-line */}
-                                        <img className='w-[27px] h-[27px]' src="/windows.svg" alt="" />
+                                        <img className='w-[27px] h-[27px]' src="/images/lander/os/windows.svg" alt="" />
                                     </>
                             }
                         </button>

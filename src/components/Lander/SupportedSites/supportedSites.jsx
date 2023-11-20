@@ -3,63 +3,63 @@ import React from 'react'
 const data = [
     {
         name: "Video Downloader",
-        img: "/site/site1.png"
+        img: "/images/lander/sites/site1.png"
     },
     {
         name: "Audio Downloader",
-        img: "/site/site2.png"
+        img: "/images/lander/sites/site2.png"
     },
     {
         name: "Facebook Downloader",
-        img: "/site/site3.png"
+        img: "/images/lander/sites/site3.png"
     },
     {
         name: "AM Downloader",
-        img: "/site/site4.png"
+        img: "/images/lander/sites/site4.png"
     },
     {
         name: "Dailymotion Downloader",
-        img: "/site/site5.png"
+        img: "/images/lander/sites/site5.png"
     },
     {
         name: "TikTok Downloader",
-        img: "/site/site6.png"
+        img: "/images/lander/sites/site6.png"
     },
     {
         name: "Vimeo Downloader",
-        img: "/site/site7.png"
+        img: "/images/lander/sites/site7.png"
     },
     {
         name: "NicoNico Downloader",
-        img: "/site/site8.png"
+        img: "/images/lander/sites/site8.png"
     },
     {
         name: "Ok.ru Downloader",
-        img: "/site/site9.png"
+        img: "/images/lander/sites/site9.png"
     },
     {
         name: "Twitch Downloader",
-        img: "/site/site10.png"
+        img: "/images/lander/sites/site10.png"
     },
     {
         name: "Twitter Downloader",
-        img: "/site/site11.png"
+        img: "/images/lander/sites/site11.png"
     },
     {
         name: "Bilibili Downloader",
-        img: "/site/site12.png"
+        img: "/images/lander/sites/site12.png"
     },
     {
         name: "SoundCloud Downloader",
-        img: "/site/site13.png"
+        img: "/images/lander/sites/site13.png"
     },
     {
         name: "Vlive Downloader",
-        img: "/site/site14.png"
+        img: "/images/lander/sites/site14.png"
     },
     {
         name: "MixCloud Downloader",
-        img: "/site/site15.png"
+        img: "/images/lander/sites/site15.png"
     },
 ]
 

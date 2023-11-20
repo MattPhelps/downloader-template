@@ -4,15 +4,15 @@ import siteConfig from '../../../../siteConfig';
 const data = [
     {
         text: "Find the video you want to download, then copy the URL from the address bar.",
-        img: "/ht1.webp"
+        img: "/images/lander/icons/ht1.webp"
     },
     {
         text: "Choose the output format and quality you want.",
-        img: "/ht2.webp"
+        img: "/images/lander/icons/ht2.webp"
     },
     {
         text: `Click the "Paste" button to begin the download process.`,
-        img: "/ht3.webp"
+        img: "/images/lander/icons/ht3.webp"
     },
 ]
 

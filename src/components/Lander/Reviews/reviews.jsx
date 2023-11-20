@@ -2,16 +2,16 @@ import React from 'react'
 
 const data = [
     {
-        img: "/reviews/review1.webp"
+        img: "/images/lander/reviews/review1.webp"
     },
     {
-        img: "/reviews/review2.webp"
+        img: "/images/lander/reviews/review2.webp"
     },
     {
-        img: "/reviews/review3.webp"
+        img: "/images/lander/reviews/review3.webp"
     },
     {
-        img: "/reviews/review4.webp"
+        img: "/images/lander/reviews/review4.webp"
     },
 ]
 
