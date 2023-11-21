@@ -2,11 +2,24 @@
 import Image from "next/image";
 import Link from "next/link";
 import siteConfig from "../../../../siteConfig";
-import { useState } from "react";
-import ClipLoader from "react-spinners/ClipLoader";
 import Render from "../../../components/Render/render";
+import { useState, useRef } from "react";
 
 const Hero = () => {
+
+  const [showRender, setShowRender] = useState(false);
+  const renderRef = useRef(null); // Create a ref for the Render component
+
+
+  const handleDownloadClick = (event) => {
+   event.preventDefault(); // Prevents the default link behavior - ADD or remove the href on the button once DONE UVA STUFF
+    setShowRender(true); // Sets the showRender state to true
+    // Scroll to the Render component after state update
+    setTimeout(() => {
+      renderRef.current?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }, 0);
+  };
+
   return (
     <section
       id="home"
@@ -48,6 +61,7 @@ const Hero = () => {
 
             <Link
               href={siteConfig.promotedBrandURL}
+              onClick={handleDownloadClick}
               target="_blank"
               rel="noopener noreferrer"
               style={{ "--main-color": siteConfig.buttonColor } as any}
@@ -61,25 +75,18 @@ const Hero = () => {
       <div className="flex justify-center items-center w-full"></div>
 
       <div
-        className="aspect-[1170/411] bg-red-500 relative max-w-[1170px] w-full mx-auto"
-        data-wow-delay="0.1s"
+         className="aspect-[1170/411] bg-red-500 relative max-w-[1170px] w-full mx-auto" // Added margin-top (mt-4)
+         data-wow-delay="0.1s"
       >
-        {" "}
-        <Render />
-        {/* 
-      {siteConfig.showBanner === "yes" && (
-        <div className="flex justify-center items-center h-full">
-          <Link href={siteConfig.promotedBrandURL} target="_blank" rel="noopener noreferrer nofollow">
-              <img
-                src={siteConfig.brandBannerPath}
-                alt={siteConfig.brandBannerAltText}
-                width={750} 
-                height={150} 
-                className=""
-              />
-          </Link>
+        {/* Conditionally render the Render component */}
+      {showRender && (
+        <div
+          ref={renderRef} // Attach the ref to this div
+          className="flex justify-center items-center w-full h-screen" // Added flexbox for centering
+        >
+          <Render />
         </div>
-        )} */}
+      )}
       </div>
     </section>
   );

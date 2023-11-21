@@ -16,28 +16,6 @@ const Support = () => {
             <div className="stars2"></div>
           </div>
 
-          {/* <!-- bg shapes --> */}
-          <div className="absolute hidden dark:block -z-10 pointer-events-none inset-0 overflow-hidden">
-            <span className="absolute w-full h-full bg-[url(/images/blur/blur-19.svg)] bg-no-repeat bg-cover bg-center left-1/2 top-0 -translate-x-1/2 -z-1"></span>
-
-            <span className="absolute left-1/2 top-0 -translate-x-1/2 -z-1 w-full aspect-[1170/592]">
-              <Image
-                src="/images/blur/blur-20.svg"
-                alt="blur"
-                fill
-                className="max-w-none"
-              />
-            </span>
-            <span className="absolute max-w-[530px] w-full mx-auto aspect-[530/254] left-1/2 top-0 -translate-x-1/2 -z-1">
-              <Image
-                src="/images/blur/blur-21.svg"
-                alt="blur"
-                fill
-                className="max-w-none"
-              />
-            </span>
-          </div>
-
           <SectionTitle
             title="Contact Us"
             paragraph="We'll be happy to help you with anything - just reach out!"

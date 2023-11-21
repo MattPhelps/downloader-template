@@ -130,8 +130,8 @@ const Header = () => {
                   href={siteConfig.promotedBrandURL}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="border
-
+                  className="
+                  border
                   dark:border-none
                   relative
                   rounded-lg
@@ -154,7 +154,7 @@ const Header = () => {
                   transition 
                   duration-500 
                   ease-in-out 
-                  fixed "
+                  fixed"
                 >
                   {siteConfig.headerButtonCTA}
                   <svg
