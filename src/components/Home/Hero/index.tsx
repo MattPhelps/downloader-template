@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import siteConfig from "../../../../siteConfig";
 import Render from "../../../components/Render/render";
+import DownloadFail from "../../../components/DownloadFail/downloadFail";
 import { useState, useRef } from "react";
 
 const Hero = () => {
