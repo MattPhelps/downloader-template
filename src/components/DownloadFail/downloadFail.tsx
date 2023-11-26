@@ -16,7 +16,7 @@ const DownloadFail = () => {
                 <div className='px-[10px] sm:px-0 mr-[20px] lg:mr-[30px]'>
                     <Image style={{ width: "auto", height: "auto" }}
                     className='max-h-[210px] lg:max-h-[190px] rounded-[10px]'
-                    src="/images/icons/download-fail.jpg"
+                    src="/images/icons/download-fail.png"
                     alt="" width={1200} height={800} />
                 </div>
                 <div className='flex flex-col gap-[20px] justify-center lg:px-0 sm:px-0 sm:max-w-[300px] h-full lg:max-w-[210px] py-[15px] items-center'>
