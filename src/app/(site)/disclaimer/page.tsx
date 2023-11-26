@@ -3,6 +3,7 @@ import { Metadata } from "next";
 import siteConfig from '../../../../siteConfig';
 import SectionTitle from "../../../components/Common/SectionTitle";
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 const pageTitle = `Disclaimer | ${siteConfig.siteName}`;
 const pageDescription = `Read our comprehensive disclaimer to understand the legal boundaries and usage terms of our video download service. We clarify our responsibilities and user obligations to ensure informed and lawful use of our website.`;
@@ -60,6 +61,7 @@ const DisclaimerPage = () => {
           </div>
         </div>
       </section>
+      <Footer /> 
     </>
   );
 };

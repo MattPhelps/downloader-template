@@ -4,6 +4,7 @@ import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 const pageTitle = `404 Error | ${siteConfig.siteTitle}`;
 const pageDescription = ``;
@@ -43,6 +44,7 @@ const ErrorPage = () => {
           </Link>
         </div>
       </section>
+      <Footer /> 
     </>
   );
 };

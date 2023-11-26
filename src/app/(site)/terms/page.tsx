@@ -3,6 +3,7 @@ import { Metadata } from "next";
 import siteConfig from '../../../../siteConfig';
 import SectionTitle from "../../../components/Common/SectionTitle";
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 const pageTitle = `Terms of Service | ${siteConfig.siteName}`;
 const pageDescription = `Explore our Terms of Service to understand the rules and guidelines governing the use of our video download platform. Stay informed about your rights and responsibilities as a user to ensure a compliant and enjoyable experience.`;
@@ -53,6 +54,7 @@ const TermsPage = () => {
           </div>
         </div>
       </section>
+      <Footer /> 
     </>
   );
 };

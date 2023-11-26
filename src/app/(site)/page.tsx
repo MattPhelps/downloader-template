@@ -7,6 +7,7 @@ import { Metadata } from "next";
 import siteConfig from '../../../siteConfig';
 import Faq from "@/components/Faq";
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 const pageTitle = `${siteConfig.siteTitle}`;
 const pageDescription = `${siteConfig.siteDescription}`;
@@ -23,6 +24,7 @@ export default function Home() {
       <Hero />
       <Features />
       <Faq />
+      <Footer /> 
     </>
   );
 }

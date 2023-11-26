@@ -55,7 +55,6 @@ export default function RootLayout({ children, showHeader = true }: { children: 
       <body className="bg-white dark:bg-dark">
         <ThemeWrapper>
           {children}
-          <Footer /> 
         </ThemeWrapper>
       </body>
     </html>

@@ -3,6 +3,7 @@ import { Metadata } from "next";
 import siteConfig from '../../../../siteConfig';
 import SectionTitle from "../../../components/Common/SectionTitle";
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 const pageTitle = `Privacy Policy | ${siteConfig.siteName}`;
 const pageDescription = `Prioritize your privacy while downloading videos. Our Privacy Policy outlines how we protect your data and respect user confidentiality. Learn about our commitment to secure and responsible data handling on our website.`;
@@ -58,6 +59,7 @@ const PrivacyPage = () => {
           </div>
         </div>
       </section>
+      <Footer /> 
     </>
   );
 };
