@@ -7,8 +7,9 @@ const DownloadFail = () => {
     const color = siteConfig.buttonColor
     return (
         <div className='flex items-center gap-[10px] flex-col justify-center mt-[10px] w-full'>
+            
             <p className='text-[18px] text-center leading-[1] max-w-[380px] lg:max-w-[540px] mb-4'>
-                Download Failed 
+               Download Failed
             </p>
             
             <div className='flex flex-col lg:flex-row gap-[0px] lg:gap-[10px] items-center lg:items-center rounded-[10px] px-[10px]' >
@@ -21,11 +22,12 @@ const DownloadFail = () => {
                 <div className='flex flex-col gap-[20px] justify-center lg:px-0 sm:px-0 sm:max-w-[300px] h-full lg:max-w-[210px] py-[15px] items-center'>
     <div className='flex flex-col gap-[5px] lg:gap-[20px] w-full h-full'>
     <p className='text-[16px] text-center leading-[1] max-w-[380px] lg:max-w-[540px] mb-4'>
-                Use iTubeGo for Guaranteed Download👇
+                Use iTubeGo for Guaranteed Download
             </p>
         <div className='w-full flex flex-col gap-[5px]'>
             <a title="This is a tooltip message"
                 href={siteConfig.promotedBrandURL}
+                target="_blank"
                 className="
                 justify-center
                 inline-flex
@@ -53,7 +55,7 @@ const DownloadFail = () => {
                 Download HD&nbsp;&nbsp;&nbsp;<img src="/images/icons/tick.png" alt="Icon" style={{ width: '14px', height: '14px' }} />
             </a>
             <p className='text-center justify-center text-[12px] justify-center gap-[3px] flex items-center'>
-                works for all {siteConfig.baseSiteName} videos<ToolBox text={`Guaranteed download success for all ${siteConfig.baseSiteName} video with iTubeGo`} />
+                works for all {siteConfig.baseSiteName} videos<ToolBox text={`Guaranteed download for all ${siteConfig.baseSiteName} video with iTubeGo`} />
             </p>
         </div>
     </div>

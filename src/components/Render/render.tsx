@@ -2,7 +2,6 @@ import Image from 'next/image'
 import React from 'react'
 import siteConfig from "../../../siteConfig";
 
-// thumnail.jpg
 const Render = () => {
     const color = siteConfig.buttonColor
     return (
@@ -73,7 +72,7 @@ const Render = () => {
                 Download HD
             </a>
             <p className='text-center justify-center text-[12px] justify-center gap-[3px] flex items-center'>
-                From {siteConfig.promotedBrand} for free<ToolBox text={"Download in HD (and bulk!) from literally any website"} />
+                From {siteConfig.promotedBrand} for free<ToolBox text={"Download in HD from literally any website"} />
             </p>
         </div>
     </div>
