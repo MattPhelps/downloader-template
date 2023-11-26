@@ -12,7 +12,56 @@ CONFIG_FILE="siteConfig.js"
 
 # List of repositories to overwrite
 repos=(
-    
+    https://github.com/mattphelps/youtube-converter
+https://github.com/mattphelps/dood-downloader
+https://github.com/mattphelps/reddit-downloader
+https://github.com/mattphelps/bilibili-downloader
+https://github.com/mattphelps/mixcloud-downloader
+https://github.com/mattphelps/dailymotion-downloader
+https://github.com/mattphelps/vk-downloader
+https://github.com/mattphelps/twitch-downloader
+https://github.com/mattphelps/smule-downloader
+https://github.com/mattphelps/bandcamp-downloader
+https://github.com/mattphelps/tumblr-downloader
+https://github.com/mattphelps/douyin-downloader
+https://github.com/mattphelps/streamable-downloader
+https://github.com/mattphelps/einthusan-downloader
+https://github.com/mattphelps/imgur-downloader
+https://github.com/mattphelps/bitchute-downloader
+https://github.com/mattphelps/patreon-downloader
+https://github.com/mattphelps/rumble-downloader
+https://github.com/mattphelps/pixiv-downloader
+https://github.com/mattphelps/hotstar-downloader
+https://github.com/mattphelps/niconico-downloader
+https://github.com/mattphelps/vlive-downloader
+https://github.com/mattphelps/medal-downloader
+https://github.com/mattphelps/newgrounds-downloader
+https://github.com/mattphelps/tubitv-downloader
+https://github.com/mattphelps/videa-downloader
+https://github.com/mattphelps/soundgasm-downloader
+https://github.com/mattphelps/iwara-downloader
+https://github.com/mattphelps/weibo-downloader
+https://github.com/mattphelps/myvidster-downloader
+https://github.com/mattphelps/loom-downloader
+https://github.com/mattphelps/okru-downloader
+https://github.com/mattphelps/viki-downloader
+https://github.com/mattphelps/scribd-downloader
+https://github.com/mattphelps/123movies-downloader
+https://github.com/mattphelps/soap2day-downloader
+https://github.com/mattphelps/deezer-downloader
+https://github.com/mattphelps/streamtape-downloader
+https://github.com/mattphelps/fansly-downloader
+https://github.com/mattphelps/hitomi-downloader
+https://github.com/mattphelps/crunchyroll-downloader
+https://github.com/mattphelps/keep2share-downloader
+https://github.com/mattphelps/likee-downloader
+https://github.com/mattphelps/flixtor-downloader
+https://github.com/mattphelps/kwai-downloader
+https://github.com/mattphelps/bunkr-downloader
+https://github.com/mattphelps/deviantart-downloader
+https://github.com/mattphelps/beatport-downloader
+https://github.com/mattphelps/imdb-downloader
+
 
     # Add more repositories as needed
 )
