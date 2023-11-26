@@ -11,6 +11,7 @@ import DownloadBar from "@/components/Lander/DownloadBar/downloadBar";
 import FaqsTips from "@/components/Lander/FaqsTips/faqTips";
 import FooterTop from "@/components/Lander/FooterTop/footerTop";
 
+
 const pageTitle = `Buy ${siteConfig.promotedBrand} | ${siteConfig.siteName}`;
 const pageDescription = `Welcome to ${siteConfig.promotedBrand}, the premium video downloading solution! Experience high-quality, fast, and versatile video downloads from a wide range of platforms. Discover the advanced features and benefits of ${siteConfig.promotedBrand}, your ultimate tool for seamless video saving and offline viewing.`;
 

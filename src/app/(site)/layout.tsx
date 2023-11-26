@@ -11,7 +11,9 @@ import { GA_TRACKING_ID, pageview } from '../../../analytics';
 import ThemeWrapper from "@/components/ThemeSwitcher/themeProvider";
 
 
-export default function RootLayout({ children }: { children: React.ReactNode; }) {
+export default function RootLayout({ children, showHeader = true }: { children: React.ReactNode; showHeader?: boolean }) {
+
+
 
   return (
     <html lang="en">
@@ -52,7 +54,6 @@ export default function RootLayout({ children }: { children: React.ReactNode; })
       </head>
       <body className="bg-white dark:bg-dark">
         <ThemeWrapper>
-          <Header />
           {children}
           <Footer /> 
         </ThemeWrapper>

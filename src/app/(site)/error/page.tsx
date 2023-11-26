@@ -3,6 +3,7 @@ import siteConfig from '../../../../siteConfig';
 import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import Header from "@/components/Header";
 
 const pageTitle = `404 Error | ${siteConfig.siteTitle}`;
 const pageDescription = ``;
@@ -16,6 +17,7 @@ export const metadata: Metadata = {
 const ErrorPage = () => {
   return (
     <>
+    <Header />
       <Breadcrumb pageTitle="404 Error Page" />
 
       <section className="pt-17.5 lg:pt-22.5 xl:pt-27.5 pb-20 lg:pb-25 xl:pb-30 2xl:pb-[150px]">

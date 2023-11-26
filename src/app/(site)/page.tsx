@@ -6,6 +6,7 @@ import Hero from "@/components/Home/Hero";
 import { Metadata } from "next";
 import siteConfig from '../../../siteConfig';
 import Faq from "@/components/Faq";
+import Header from "@/components/Header";
 
 const pageTitle = `${siteConfig.siteTitle}`;
 const pageDescription = `${siteConfig.siteDescription}`;
@@ -18,6 +19,7 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <>
+      <Header />
       <Hero />
       <Features />
       <Faq />

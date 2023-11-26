@@ -2,6 +2,7 @@ import SupportSection from "@/components/Support";
 import { Metadata } from "next";
 import siteConfig from '../../../../siteConfig';
 import SectionTitle from "../../../components/Common/SectionTitle";
+import Header from "@/components/Header";
 
 const pageTitle = `Privacy Policy | ${siteConfig.siteName}`;
 const pageDescription = `Prioritize your privacy while downloading videos. Our Privacy Policy outlines how we protect your data and respect user confidentiality. Learn about our commitment to secure and responsible data handling on our website.`;
@@ -15,6 +16,7 @@ const PrivacyPage = () => {
 
   return (
     <>
+      <Header />
       <section className="pt-3 pb-25">
         <div className="max-w-[1170px] text-[black]/70 dark:text-[white]/50 mx-auto px-4 sm:px-8 xl:px-0 z-10 pt-25">
           <SectionTitle title="Privacy Policy" paragraph="" />

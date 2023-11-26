@@ -2,6 +2,7 @@ import SupportSection from "@/components/Support";
 import { Metadata } from "next";
 import siteConfig from '../../../../siteConfig';
 import SectionTitle from "../../../components/Common/SectionTitle";
+import Header from "@/components/Header";
 
 const pageTitle = `Disclaimer | ${siteConfig.siteName}`;
 const pageDescription = `Read our comprehensive disclaimer to understand the legal boundaries and usage terms of our video download service. We clarify our responsibilities and user obligations to ensure informed and lawful use of our website.`;
@@ -15,6 +16,7 @@ const DisclaimerPage = () => {
 
   return (
     <>
+    <Header />
       <section className="pt-3 pb-25">
         <div className="max-w-[1170px] text-[black]/70 dark:text-[white]/50 mx-auto px-4 sm:px-8 xl:px-0 z-10 pt-25">
           
