@@ -11,7 +11,7 @@ const SingleFeature = ({ feature }: { feature: Feature }) => {
           }`}
         ></span>
         <span className="icon-border relative max-w-[80px] w-full h-20 rounded-full inline-flex items-center justify-center mb-8 mx-auto">
-          <Image src={feature.icon} alt="icon" width={32} height={32} />
+          <Image src={feature.icon} alt="icon" width={50} height={50} />
         </span>
         <h4 className="font-semibold text-lg text-[black] dark:text-[white] mb-4">
           {feature.title}
