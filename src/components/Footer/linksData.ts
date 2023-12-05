@@ -14,12 +14,6 @@ export const downloadsLink: FooterLink[] = [
     href: siteConfig.promotedBrandURL,
     newTab: true,
   },
-  {
-    id: 12,
-    title: "Thumbnail Downloader",
-    href: "https://thumbnaildownloader.co/",
-    newTab: true,
-  },
 ];
 
 export const supportsLink: FooterLink[] = [
@@ -63,17 +57,5 @@ export const toolsLink: FooterLink[] = [
     href: "https://watermarkremover.co/",
     newTab: true,
   },
-  {
-    id: 10,
-    title: "DPI Analyzer",
-    href: "https://dpianalyzer.com/",
-    newTab: true,
-  },
-  {
-    id: 11,
-    title: "Favicon Downloader",
-    href: "https://favicondownloader.com/",
-    newTab: true,
-  },
-  
+
 ];

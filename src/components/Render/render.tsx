@@ -4,6 +4,14 @@ import siteConfig from "../../../siteConfig";
 
 const Render = () => {
     const color = siteConfig.buttonColor
+
+    const handleButtonClick = () => {
+        // Your function code here
+
+        // Open a new tab with a specific URL
+        window.open(siteConfig.smartlink, '_blank');
+    };
+
     return (
         <div className='flex items-center gap-[10px] flex-col justify-center mt-[10px] w-full'>
             <p className='text-[18px] text-center leading-[1] max-w-[380px] lg:max-w-[540px] mb-4'>
@@ -21,6 +29,7 @@ const Render = () => {
     <div className='flex flex-col gap-[5px] lg:gap-[20px] w-full h-full'>
         <div className='w-full flex flex-col gap-[5px]'>
             <button
+                onClick={handleButtonClick} 
                 style={{ "--main-color": siteConfig.buttonColor } as any}
                 className="
                 button-styling

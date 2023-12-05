@@ -55,7 +55,7 @@ const DownloadFail = () => {
                 Download HD&nbsp;&nbsp;&nbsp;<img src="/images/icons/tick.png" alt="Icon" style={{ width: '14px', height: '14px' }} />
             </a>
             <p className='text-center justify-center text-[12px] justify-center gap-[3px] flex items-center'>
-                works for all {siteConfig.baseSiteName} videos<ToolBox text={`Guaranteed download for all ${siteConfig.baseSiteName} video with ${siteConfig.promotedBrand}`} />
+                works for all {siteConfig.baseSiteName} videos<ToolBox text={`Guaranteed download for all ${siteConfig.baseSiteName} videos with ${siteConfig.promotedBrand}`} />
             </p>
         </div>
     </div>

@@ -6,7 +6,7 @@ import siteConfig from '../../../siteConfig';
 const faqData: FAQ[] = [
   {
     id: 74,
-    question: `What Is ${siteConfig.siteName}?`,
+    question: `What is ${siteConfig.siteName}?`,
     answer:
      `${siteConfig.siteName} is a free online tool that enables you to download YouTube videos in various formats and resolutions. The advantages of using ${siteConfig.siteName} include speedy downloads, high-quality video and audio, and the option to save videos for offline viewing.`,
   },
