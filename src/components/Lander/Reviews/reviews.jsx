@@ -19,9 +19,9 @@ const Reviews = () => {
     return (
         <div className='wrapper bg-[#EFF6FF]'>
             <div className='content center flex flex-col pt-[40px] sm:pt-[60px] pb-[50px] px-[10px] sm:px-[20px]'>
-                <h1 className='text-center text-[30px] text-[black]'>
-                    Our Users Are Saying
-                </h1>
+                <h2 className='text-center font-extrabold text-[34px] text-[black]'>
+                    What Others are Saying...
+                </h2>
                 <div className='w-full max-w-[1050px] grid grid-cols-1 700:grid-cols-2 gap-[10px] sm:gap-[30px] mt-[30px] sm:pt-[50px]'>
                     {
                         data.map((item, i) => (

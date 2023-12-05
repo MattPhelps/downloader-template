@@ -21,9 +21,9 @@ const HowToSave = () => {
         <div className='wrapper bg-[#EFF6FF]'>
             <div className='content center mt-[40px] sm:pt-[60px] pb-[50px] px-[20px]'>
                 <div className='w-full max-w-[1000px] center flex flex-col'>
-                    <h1 className='text-[30px] text-center text-[black]'>
-                        How to Download Video with {siteConfig.promotedBrand} Video Downloader
-                    </h1>
+                    <h2 className='font-extrabold text-[34px] text-center text-[black]'>
+                        How to Download Videos with {siteConfig.promotedBrand}
+                    </h2>
                     <div className='900:w-full flex flex-wrap justify-center 900:justify-between items-center gap-[30px] mt-[50px] max-w-[600px] 900:max-w-[1000px]'>
                         {
                             data.map((item, i) => (

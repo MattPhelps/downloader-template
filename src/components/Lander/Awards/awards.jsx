@@ -32,7 +32,7 @@ const Awards = () => {
         <div className='wraper'>
             <div className="content">
                 <div className='w-full center flex flex-col pt-[40px] sm:pt-[60px] pb-[50px] px-[20px]'>
-                    <h1 className='text-[30px] text-center text-[black]'>Awards & Review</h1>
+                    <h1 className='font-extrabold text-[34px] text-center text-[black]'>Awards & Review</h1>
                     <div className='mt-[40px] sm:mt-[60px] w-full grid gap-y-[20px] gap-x-[30px] sm:gap-y-[40px] sm:gap-x-[40px] grid-cols-2 sm:grid-cols-3 900:grid-cols-6 max-w-[1000px]'>
                         {
                             data.map((item, i) => (

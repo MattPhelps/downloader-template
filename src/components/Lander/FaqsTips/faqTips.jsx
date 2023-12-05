@@ -31,9 +31,9 @@ const FaqsTips = () => {
 
                 <div className='w-full grid lg:grid-cols-12 min-h-[300px] gap-[30px] max-w-[1050px] '>
                     <div className='lg:col-span-8 flex flex-col gap-[30px]'>
-                        <h1 className='text-[36px] text-[black]'>
+                        <h2 className='text-[36px] text-[black]'>
                             {"FAQ's"}
-                        </h1>
+                        </h2>
                         <div className='w-full bg-white'>
                             <FAQ />
                         </div>

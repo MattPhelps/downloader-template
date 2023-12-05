@@ -24,15 +24,13 @@ const landerPage = () => {
   return (
     <div className="wrapper">
       <LanderHero />
-      <HeroBottom />
       <SupportedSites/>
+      <HeroBottom />
       <FeaturesSection/>
       <HowToSave/>
-      <Awards/>
       <Reviews/>
-      <DownloadBar/>
       <FaqsTips/>
-      <FooterTop/>
+      <DownloadBar/>
     </div>
   );
 };
