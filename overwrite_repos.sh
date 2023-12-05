@@ -12,7 +12,7 @@ CONFIG_FILE="siteConfig.js"
 
 # List of repositories to overwrite
 repos=(
-
+    https://github.com/mattphelps/spotify-downloader
     # Add more repositories as needed
 )
 

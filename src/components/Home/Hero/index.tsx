@@ -85,7 +85,7 @@ const Hero = () => {
           ref={renderRef} // Attach the ref to this div
           className="flex justify-center items-center w-full h-screen" // Added flexbox for centering
         >
-          <DownloadFail />
+          <Render />
         </div>
       )}
       </div>
