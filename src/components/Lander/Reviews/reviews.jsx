@@ -2,16 +2,34 @@ import React from 'react'
 
 const data = [
     {
-        img: "/images/lander/reviews/review1.webp"
+        img: "/images/lander/reviews/trustpilot-review-1.png"
     },
     {
-        img: "/images/lander/reviews/review2.webp"
+        img: "/images/lander/reviews/trustpilot-review-2.png"
     },
     {
-        img: "/images/lander/reviews/review3.webp"
+        img: "/images/lander/reviews/trustpilot-review-3.png"
     },
     {
-        img: "/images/lander/reviews/review4.webp"
+        img: "/images/lander/reviews/trustpilot-review-9.png"
+    },
+    {
+        img: "/images/lander/reviews/trustpilot-review-7.png"
+    },
+    {
+        img: "/images/lander/reviews/trustpilot-review-6.png"
+    },
+    {
+        img: "/images/lander/reviews/trustpilot-review-4.png"
+    },
+    {
+        img: "/images/lander/reviews/trustpilot-review-5.png"
+    },
+    {
+        img: "/images/lander/reviews/trustpilot-review-8.png"
+    },
+    {
+        img: "/images/lander/reviews/trustpilot-review-10.png"
     },
 ]
 

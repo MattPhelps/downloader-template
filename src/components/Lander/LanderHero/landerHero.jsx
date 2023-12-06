@@ -44,11 +44,6 @@ const LanderHero = () => {
                         <img src="/images/lander/icons/star.png" className='max-w-[160px]' alt="" /> <p className='400:text-[18px] text-[black]'>4.8 / 5 (Trustpilot)</p>
                     </div>
                 </div>
-                {/* Brands */}
-                <div className='center mt-[40px]'>
-                    {/* eslint-disable-next-line */}
-                    <img src="/images/lander/icons/banner-brands.png" className='w-full max-w-[440px]' alt="" />
-                </div>
             </div>
         </div>
     )
