@@ -81,7 +81,7 @@ const data = [
 
 const SupportedSites = () => {
     return (
-        <div className='wrapper bg-[#EFF6FF]'>
+        <div className='wrapper bg-[#F5F5F5]'>
             <div className='content center flex flex-col pt-[40px] sm:pt-[70px] pb-[60px] px-[10px] sm:px-[30px]'>
                 <h2 className='text-center font-extrabold text-[34px] text-[black] leading-[1.2]'>
                     Supported Sites

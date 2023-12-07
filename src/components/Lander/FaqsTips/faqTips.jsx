@@ -29,38 +29,13 @@ const FaqsTips = () => {
         <div className='wrapper bg-[#F5F6F6]'>
             <div className='content py-[50px] center px-[10px] sm:px-[20px]'>
 
-                <div className='w-full grid lg:grid-cols-12 min-h-[300px] gap-[30px] max-w-[1050px] '>
-                    <div className='lg:col-span-8 flex flex-col gap-[30px]'>
-                        <h2 className='text-[36px] text-[black]'>
-                            {"FAQ's"}
+                <div className='w-full grid min-h-[300px] gap-[30px] max-w-[1050px] '>
+                    <div className='gap-[30px]'>
+                        <h2 className='text-[36px] text-[black] py-[50px]'>
+                            {"Frequently Asked Questions"}
                         </h2>
                         <div className='w-full bg-white'>
                             <FAQ />
-                        </div>
-                    </div>
-                    <div className=' lg:col-span-4 flex flex-col gap-[10px] sm:gap-[30px]'>
-                        <h1 className='text-[36px] text-[black]'>
-                            Tips
-                        </h1>
-                        <div className='w-full h-full bg-white px-[10px] sm:px-[30px] py-[30px] sm:py-[40px] flex flex-col gap-[10px] text-gray-600'>
-                            <Link href={"/"} className='flex items-start gap-[6px] text-[17px] hover:text-blue-600 hover:underline text-[black]'>
-                                <IoIosArrowDroprightCircle className='text-[22px] min-h-[22px] min-w-[22px] mt-[3px]  text-[#000000a3]' /> How to Download TikTok Video on iPhone/Android/PC/Mac
-                            </Link>
-                            <Link href={"/"} className='flex items-start gap-[6px] text-[17px] hover:text-blue-600 hover:underline text-[black]'>
-                                <IoIosArrowDroprightCircle className='text-[22px] min-h-[22px] min-w-[22px] mt-[3px] text-[#000000a3]' />Top Best 10 Spotify Downloader to Download Spotify Songs
-                            </Link>
-                            <Link href={"/"} className='flex items-start gap-[6px] text-[17px] hover:text-blue-600 hover:underline text-[black]'>
-                                <IoIosArrowDroprightCircle className='text-[22px] min-h-[22px] min-w-[22px] mt-[3px] text-[#000000a3]' />[Solved] YouTube Downloader Not Working? Find Solution Here
-                            </Link>
-                            <Link href={"/"} className='flex items-start gap-[6px] text-[17px] hover:text-blue-600 hover:underline text-[black]'>
-                                <IoIosArrowDroprightCircle className='text-[22px] min-h-[22px] min-w-[22px] mt-[3px] text-[#000000a3]' />How to Download Bandcamp to MP3 320kbps
-                            </Link>
-                            <Link href={"/"} className='flex items-start gap-[6px] text-[17px] hover:text-blue-600 hover:underline text-[black]'>
-                                <IoIosArrowDroprightCircle className='text-[22px] min-h-[22px] min-w-[22px] mt-[3px] text-[#000000a3]' />How to Download Niconico Video
-                            </Link>
-                            <Link href={"/"} className='flex items-start gap-[6px] text-[17px] hover:text-blue-600 hover:underline text-[black]'>
-                                <IoIosArrowDroprightCircle className='text-[22px] min-h-[22px] min-w-[22px] mt-[3px] text-[#000000a3]' />How to Download Bilbili Video
-                            </Link>
                         </div>
                     </div>
                 </div>
@@ -80,7 +55,7 @@ const FAQ = () => {
             {
                 data.map((item, i) => (
                     <div onClick={() => setActive(i)} key={i} className='w-full group'>
-                        <div className={`w-full flex px-[10px] sm:px-[30px] py-[15px] sm:py-[20px]  cursor-pointer ${active === i ? "bg-[#2e2effe6] text-white" : "hover:bg-[#cde2fe96] text-[black]"}`}>
+                        <div className={`w-full flex px-[10px] sm:px-[30px] py-[15px] sm:py-[20px]  cursor-pointer ${active === i ? "bg-[#4bb5b4] text-white" : "hover:bg-[#cde2fe96] text-[black]"}`}>
                             <p className='flex-1 text-[17px] sm:text-[18px] font-[600] '>{item.question}</p>
                             <div className='py-[10px]'>
                                 <IoIosArrowDown className='text-[23px] ml-[10px] text-gray-400' />

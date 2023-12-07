@@ -35,7 +35,7 @@ const data = [
 
 const Reviews = () => {
     return (
-        <div className='wrapper bg-[#EFF6FF]'>
+        <div className='wrapper bg-[#F5F5F5]'>
             <div className='content center flex flex-col pt-[40px] sm:pt-[60px] pb-[50px] px-[10px] sm:px-[20px]'>
                 <h2 className='text-center font-extrabold text-[34px] text-[black]'>
                     What Others are Saying...

@@ -18,7 +18,7 @@ const data = [
 
 const HowToSave = () => {
     return (
-        <div className='wrapper bg-[#EFF6FF]'>
+        <div className='wrapper bg-[#FFF]'>
             <div className='content center mt-[40px] sm:pt-[60px] pb-[50px] px-[20px]'>
                 <div className='w-full max-w-[1000px] center flex flex-col'>
                     <h2 className='font-extrabold text-[34px] text-center text-[black]'>
