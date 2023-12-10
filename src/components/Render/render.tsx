@@ -6,10 +6,9 @@ const Render = () => {
     const color = siteConfig.buttonColor
 
     const handleButtonClick = () => {
-        // Your function code here
 
-        // Open a new tab with a specific URL
-        window.open(siteConfig.smartlink, '_blank');
+
+       
     };
 
     return (
