@@ -17,7 +17,7 @@ const siteConfig = {
   promotedBrandURL: "https://www.linkconnector.com/ta.php?lc=165043000007007573&lc_pid=Promo-42525&url=https://ytsaver.net/",
   promotedBrandSlug: "YTSaver",
   headerButtonCTA: "Download HD - All Sites",
-  smartlink: "https://flirttalkonline.life/?u=qf5kaeb&o=wgkpxhg",
+  smartlink: "",
 };
 
 export default siteConfig;
