@@ -7,7 +7,6 @@ const Render = () => {
 
     const handleButtonClick = () => {
 
-
        
     };
 

@@ -13,5 +13,3 @@
         </div>
         )} */}
 
-
-        // window.open(siteConfig.smartlink, '_blank');

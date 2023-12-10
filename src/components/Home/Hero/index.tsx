@@ -13,6 +13,11 @@ const Hero = () => {
 
 
   const handleDownloadClick = (event) => {
+    
+    if (siteConfig.functional == "no") {
+      window.open(siteConfig.smartlink, '_blank');
+    }
+
    event.preventDefault(); // Prevents the default link behavior - ADD or remove the href on the button once DONE UVA STUFF
     setShowRender(true); // Sets the showRender state to true
     // Scroll to the Render component after state update
