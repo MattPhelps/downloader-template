@@ -55,7 +55,7 @@ const FAQ = () => {
             {
                 data.map((item, i) => (
                     <div onClick={() => setActive(i)} key={i} className='w-full group'>
-                        <div className={`w-full flex px-[10px] sm:px-[30px] py-[15px] sm:py-[20px]  cursor-pointer ${active === i ? "bg-[#4bb5b4] text-white" : "hover:bg-[#cde2fe96] text-[black]"}`}>
+                        <div className={`w-full flex px-[10px] sm:px-[30px] py-[15px] sm:py-[20px]  cursor-pointer ${active === i ? "bg-[#1894f4] text-white" : "hover:bg-[#cde2fe96] text-[black]"}`}>
                             <p className='flex-1 text-[17px] sm:text-[18px] font-[600] '>{item.question}</p>
                             <div className='py-[10px]'>
                                 <IoIosArrowDown className='text-[23px] ml-[10px] text-gray-400' />

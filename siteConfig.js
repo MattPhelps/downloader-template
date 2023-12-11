@@ -1,6 +1,6 @@
 const siteConfig = {
   gitHubRepo: "https://github.com/mattphelps/spotify-downloader",
-  baseSiteName: "Spotify",
+  baseSiteName: "PornHub",
   baseSite: "https://spotify.com",
   siteName: "Spotify Downloader",
   siteURL: "https://spotifydownloader.io",
