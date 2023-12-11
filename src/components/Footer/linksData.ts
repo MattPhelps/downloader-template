@@ -79,3 +79,18 @@ if (siteConfig.downloaderList == "sfw") {
   },);
 }
 
+if (siteConfig.baseSiteName == "OnlyFans") {
+  toolsLink.push({
+    id: 6,
+    title: "OnlyFans Name Generator",
+    href: "https://onlyfansnamegenerator.com/",
+    newTab: true,
+  },
+  {
+    id: 9,
+    title: "OnlyFans Caption Ideas",
+    href: "https://onlyfanscaptionideas.com/",
+    newTab: true,
+  },);
+}
+
