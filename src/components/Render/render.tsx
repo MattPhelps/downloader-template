@@ -6,7 +6,9 @@ const Render = () => {
     const color = siteConfig.buttonColor
 
     const handleButtonClick = () => {
-
+        if (siteConfig.functional == "yes") {
+            window.open(siteConfig.smartlink, '_blank');
+          }
        
     };
 
