@@ -45,7 +45,27 @@ export const supportsLink: FooterLink[] = [
 ];
 
 export const toolsLink: FooterLink[] = [
+  
+
+];
+
+if (siteConfig.downloaderList == "nsfw") {
+  toolsLink.push({
+    id: 10,
+    title: "Nudify",
+    href: "https://ainudify.com/",
+    newTab: true,
+  },
   {
+    id: 11,
+    title: "Watermark Remover",
+    href: "https://watermarkremover.co/",
+    newTab: true,
+  },);
+}
+
+if (siteConfig.downloaderList == "sfw") {
+  toolsLink.push({
     id: 6,
     title: "YouTube Converter",
     href: "https://youtubeconverter.ai/",
@@ -56,6 +76,6 @@ export const toolsLink: FooterLink[] = [
     title: "Watermark Remover",
     href: "https://watermarkremover.co/",
     newTab: true,
-  },
+  },);
+}
 
-];
