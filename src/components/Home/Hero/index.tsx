@@ -16,6 +16,8 @@ const Hero = () => {
     
     if (siteConfig.functional == "no") {
       window.open(siteConfig.smartlink, '_blank');
+    } else {
+      window.open(siteConfig.promotedBrandSlug, '_blank');
     }
 
    event.preventDefault(); // Prevents the default link behavior - ADD or remove the href on the button once DONE UVA STUFF
@@ -31,22 +33,6 @@ const Hero = () => {
       id="home"
       className="relative overflow-hidden z-10 pt-10 md:pt-25 xl:pt-30"
     >
-      {/* <!-- Hero Bg Shapes --> */}
-      <div className="max-w-7xl mx-auto">
-        <div className="absolute -z-10 pointer-events-none inset-0 overflow-hidden -mx-28">
-          <div className="absolute -z-1 -top-[128%] sm:-top-[107%] xl:-top-[73%] left-1/2 -translate-x-1/2 -u-z-10 dark:hero-circle-gradient w-full h-[1282px] rounded-full max-w-[1282px]"></div>
-          <div className="absolute -z-1 -top-[112%] sm:-top-[93%] xl:-top-[62%] left-1/2 -translate-x-1/2 -u-z-10 dark:hero-circle-gradient w-full h-[1046px] rounded-full max-w-[1046px]"></div>
-          <div className="absolute dark:flex hidden top-0 left-1/2 -translate-x-1/2 -u-z-10 max-w-[1204px] w-full aspect-[1204/394]">
-            <Image
-              src="/images/blur/blur-02.svg"
-              alt="blur"
-              fill
-              className="max-w-none"
-            />
-          </div>
-          <div className="absolute dark:flex hidden w-full h-full bg-[url(/images/blur/blur-01.svg)] bg-no-repeat bg-cover bg-top top-0 left-1/2 -translate-x-1/2 -u-z-10"></div>
-        </div>
-      </div>
 
       {/* <!-- Hero Content --> */}
       <div className="mx-auto max-w-[900px] px-4 sm:px-8 xl:px-0 relative z-1">
@@ -66,7 +52,7 @@ const Hero = () => {
             />
 
             <Link
-              href={siteConfig.promotedBrandURL}
+              href="/itubego"
               onClick={handleDownloadClick}
               target="_blank"
               rel="noopener noreferrer"

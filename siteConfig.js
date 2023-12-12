@@ -13,10 +13,10 @@ const siteConfig = {
   colorTheme: "light",
   buttonColor: "#1cdf63",
   GATag: "G-E0NGVPCQHJ",
-  functional: "no",
+  functional: "yes",
   promotedBrand: "YTSaver",
   promotedBrandURL: "https://www.linkconnector.com/ta.php?lc=165043000007007573&lc_pid=Promo-42525&url=https://ytsaver.net/",
-  promotedBrandSlug: "YTSaver",
+  promotedBrandSlug: "itubego",
   headerButtonCTA: "Download HD - All Sites",
   smartlink: "https://new-bestfortunes.life/?u=qf5kaeb&o=wgepxhg",
 };

@@ -46,16 +46,16 @@ const data = [
         img: "/images/lander/nsfw-sites/redgifs-logo.png"
     },
     {
-        name: "PornTube Downloader",
-        img: "/images/lander/nsfw-sites/porntube-logo.jpeg"
+        name: "JavHD Downloader",
+        img: "/images/lander/nsfw-sites/javhd-logo.jpeg"
     },
     {
         name: "Tube8 Downloader",
         img: "/images/lander/nsfw-sites/tube8-logo.jpeg"
     },
     {
-        name: "JavHD Downloader",
-        img: "/images/lander/nsfw-sites/javhd-logo.jpeg"
+        name: "PornTube Downloader",
+        img: "/images/lander/nsfw-sites/porntube-logo.jpeg"
     },
     {
         name: "YesPornPlease Downloader",
@@ -77,6 +77,10 @@ const data = [
         name: "FapHouse Downloader",
         img: "/images/lander/nsfw-sites/faphouse-logo.jpeg"
     },
+    {
+        name: "YouTube Downloader",
+        img: "/images/lander/nsfw-sites/youtube-logo.jpeg"
+    },
 ]
 
 const SupportedSites = () => {
@@ -84,7 +88,7 @@ const SupportedSites = () => {
         <div className='wrapper bg-[#F5F5F5]'>
             <div className='content center flex flex-col pt-[40px] sm:pt-[70px] pb-[60px] px-[10px] sm:px-[30px]'>
                 <h2 className='text-center font-extrabold text-[34px] text-[black] leading-[1.2]'>
-                    Supported Sites
+                    10,000+ Supported Sites
                 </h2>
             
                     <div className='flex flex-wrap items-center gap-x-[2rem] gap-y-[1rem] sm:gap-y-[2.5rem] justify-center max-w-[1200px] pt-[30px] sm:pt-[40px]'>
@@ -99,9 +103,6 @@ const SupportedSites = () => {
                     </div>
                     <br></br>
                     <br></br>
-                    <h3 className='text-center font-bold text-[24px] text-[black] leading-[1.2]'>
-                    10,000+ Supported Websites
-                </h3>
                 <br></br>
             </div>
         </div>

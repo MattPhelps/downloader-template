@@ -38,7 +38,7 @@ const Reviews = () => {
         <div className='wrapper bg-[#F5F5F5]'>
             <div className='content center flex flex-col pt-[40px] sm:pt-[60px] pb-[50px] px-[10px] sm:px-[20px]'>
                 <h2 className='text-center font-extrabold text-[34px] text-[black]'>
-                    What Others are Saying...
+                    4.8 Trustpilot Rating
                 </h2>
                 <div className='w-full max-w-[1050px] grid grid-cols-1 700:grid-cols-2 gap-[10px] sm:gap-[30px] mt-[30px] sm:pt-[50px]'>
                     {
