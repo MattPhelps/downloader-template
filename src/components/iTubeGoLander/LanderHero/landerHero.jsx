@@ -50,10 +50,10 @@ const LanderHero = () => {
             </div>
 
             {/* Existing content */}
-            <div className='w-full lg:w-1/2 flex flex-col pb-[40px] 700:py-[80px] px-[15px] 700:px-[25px] 800:px-[50px] 1000:px-[85px]'>
+            <div className='w-full lg:w-1/2 flex flex-col pb-[40px] 700:py-[60px] px-[15px] 700:px-[25px] 800:px-[50px] 1000:px-[85px]'>
                 {/* Headline with negative margin-top */}
-                <h1 style={{ lineHeight: '1.4' }} className='text-[black] dark:text-white mb-6 800:px-[0px] text-xl font-bold sm:text-4xl xl:text-heading mt-[50px]'>
-                    Batch download <span className='text-[#02b779]'>HD/4K</span> videos from <span className='bg-[black] text-[#fbfb04]' >{siteConfig.baseSiteName},</span><span className='bg-[black] text-white'> {siteList} and more!&nbsp;</span>
+                <h1 style={{ lineHeight: '1.6' }} className='text-[black] dark:text-white mb-6 800:px-[0px] text-xl font-bold sm:text-4xl xl:text-heading mt-[50px]'>
+                    Batch download <span className='text-[#02b779]'>HD/4K</span> videos from <span className='bg-[black] text-[#fbfb04]' >&nbsp;{siteConfig.baseSiteName},</span><span className='bg-[black] text-white'> {siteList} and more!&nbsp;</span>
                 </h1>
 
                 <p className='700:text-[18px] font-bold text-left mt-[10px] 800:px-[0px] text-[#1894f4]'>
@@ -67,7 +67,12 @@ const LanderHero = () => {
                     <div className='flex flex-col gap-[5px] w-full 600:w-auto'>
                         <a href={siteConfig.promotedBrandURL}
                         style={{ borderColor: 'black', borderWidth: '2px', borderStyle: 'solid' }}
-                        className={`bg-[#ff7404] hover:bg-blue-700 rounded-[10px] flex items-center gap-[10px] text-[white] text-[20px] font-[700] px-[1.8rem] 800:px-[2.2rem] py-[.8rem] 600:py-[1.25rem] justify-center`}>
+                        className={`bg-[#ff7404] hover:bg-blue-700 rounded-[10px] flex items-center gap-[10px] text-[white] text-[20px] font-[700] px-[1.8rem] 800:px-[2.2rem] py-[.8rem] 600:py-[1.25rem] justify-center transition 
+                        duration-500 
+                        ease-in-out
+                        shadow-lg 
+                        transform 
+                        hover:scale-110`}>
                             Get&nbsp;&nbsp;iTubeGo
                             <img className='w-[20px] h-[20px]' src="/images/icons/white-download.png" alt="" />
                         </a>
@@ -80,8 +85,8 @@ const LanderHero = () => {
                 {/* stars */}
                 <div className='flex left 800:px-[10px] mt-[40px]'>
                     <div className='flex items-center gap-[10px]'>
-                        <img src="/images/lander/icons/star.png" className='max-w-[160px]' alt="" />
-                        <p className='400:text-[18px] text-[black]'>4.8 / 5 (Trustpilot)</p>
+                        <img src="/images/lander/icons/star.png" className='max-w-[140px]' alt="" />
+                        <p className='400:text-[16px] text-[black]'>4.8 / 5 (Trustpilot)</p>
                     </div>
                 </div>
             </div>

@@ -15,7 +15,12 @@ const DownloadBar = () => {
                         <div className='flex flex-col gap-[5px] w-full 600:w-auto'>
                         <a href={siteConfig.promotedBrandURL}
                         style={{ borderColor: 'black', borderWidth: '2px', borderStyle: 'solid' }}
-                        className={`bg-[#ff7404] hover:bg-blue-700 rounded-[10px] flex items-center gap-[10px] text-[white] text-[20px] font-[700] px-[1.8rem] 800:px-[2.2rem] py-[.8rem] 600:py-[1.25rem] justify-center`}>
+                        className={`bg-[#ff7404] hover:bg-blue-700 rounded-[10px] flex items-center gap-[10px] text-[white] text-[20px] font-[700] px-[1.8rem] 800:px-[2.2rem] py-[.8rem] 600:py-[1.25rem] justify-center
+                        duration-500 
+                        ease-in-out
+                        shadow-lg 
+                        transform 
+                        hover:scale-110`}>
                             Get&nbsp;&nbsp;iTubeGo
                             <img className='w-[20px] h-[20px]' src="/images/icons/white-download.png" alt="" />
                         </a>
@@ -24,7 +29,6 @@ const DownloadBar = () => {
                             </p>
                         </div>
                     </div>
-                
             </div>
         </div>
     )

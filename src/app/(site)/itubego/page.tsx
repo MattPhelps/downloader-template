@@ -1,12 +1,12 @@
 import { Metadata } from "next";
 import siteConfig from "../../../../siteConfig";
-import LanderHero from "@/components/Lander/LanderHero/landerHero";
-import SupportedSites from "@/components/Lander/SupportedSites/supportedSites";
-import FeaturesSection from "@/components/Lander/Features/features";
-import HowToSave from "@/components/Lander/HowToSave/howToSave";
-import Reviews from "@/components/Lander/Reviews/reviews";
-import DownloadBar from "@/components/Lander/DownloadBar/downloadBar";
-import FaqsTips from "@/components/Lander/FaqsTips/faqTips";
+import LanderHero from "@/components/iTubeGoLander/LanderHero/landerHero";
+import SupportedSites from "@/components/iTubeGoLander/SupportedSites/supportedSites";
+import FeaturesSection from "@/components/iTubeGoLander/Features/features";
+import HowToUse from "@/components/iTubeGoLander/HowToUse/howToUse";
+import HowToUseBar from "@/components/iTubeGoLander/HowToUseBar/howToUseBar";
+import Reviews from "@/components/iTubeGoLander/Reviews/reviews";
+import DownloadBar from "@/components/iTubeGoLander/DownloadBar/downloadBar";
 
 
 const pageTitle = `Buy ${siteConfig.promotedBrand} | ${siteConfig.siteName}`;
@@ -23,9 +23,9 @@ const landerPage = () => {
       <LanderHero />
       <SupportedSites/>
       <FeaturesSection/>
-      {/* <HowToSave/> */}
+      <HowToUseBar/> 
+      <HowToUse/> 
       <Reviews/>
-      <FaqsTips/>
       <DownloadBar/>
     </div>
   );
