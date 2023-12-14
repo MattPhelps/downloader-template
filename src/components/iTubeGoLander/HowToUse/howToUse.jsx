@@ -1,5 +1,5 @@
 import React from 'react';
-import siteConfig from "../../../../siteConfig";
+import siteConfig from '../../../../siteConfig';
 
 const HowToUse = () => {
 
@@ -8,10 +8,10 @@ const HowToUse = () => {
     let siteImagePath;
 
     switch (true) {
-        case siteConfig.baseSiteName == "XNXX":
-            siteImagePath = "/images/lander/site-urls/xnxx-url.jpeg";
+        case siteConfig.baseSiteName == 'XNXX':
+            siteImagePath = '/images/lander/site-urls/xnxx-url.jpeg';
             default:
-            siteImagePath = "/images/lander/site-urls/xnxx-url.jpeg";
+            siteImagePath = '/images/lander/site-urls/xnxx-url.jpeg';
             break;
     }
 
