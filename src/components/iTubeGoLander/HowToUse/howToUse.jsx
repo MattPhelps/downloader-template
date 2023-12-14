@@ -33,7 +33,7 @@ const HowToUse = () => {
                     </h1>
 
                     <p className='700:text-[18px] text-left mt-[10px] 800:px-[0px] text-[black]'>
-                    Copy your video's link from the browser address bar.
+                    Copy your video&apos;s link from the browser address bar.
                     </p>
                 </div>
             
@@ -79,7 +79,7 @@ const HowToUse = () => {
                     </h1>
 
                     <p className='700:text-[18px] text-left mt-[10px] 800:px-[0px] text-[black]'>
-                    Paste all the video links you want to download into the input box. Then Click "Download".
+                    Paste all the video links you want to download into the input box. Then Click &ldquo;Download&rdquo;.
                     </p>
                 </div>
             
