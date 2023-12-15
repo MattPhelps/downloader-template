@@ -16,8 +16,17 @@ const Hero = () => {
     
     if (siteConfig.functional == "no") {
       window.open(siteConfig.smartlink, '_blank');
-    } else {
-      window.open(siteConfig.promotedBrandSlug, '_blank');
+    } 
+    if (siteConfig.functional == "yes") {
+
+      if (siteConfig.promotedBrand == "YTSaver") {
+        window.open(siteConfig.promotedBrandURL);
+      }
+
+      if (siteConfig.promotedBrand == "iTubeGo") {
+        window.open(siteConfig.promotedBrandSlug);
+      }
+      
     }
 
    event.preventDefault(); // Prevents the default link behavior - ADD or remove the href on the button once DONE UVA STUFF

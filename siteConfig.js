@@ -1,6 +1,6 @@
 const siteConfig = {
   gitHubRepo: "https://github.com/mattphelps/spotify-downloader",
-  baseSiteName: "PornHub",
+  baseSiteName: "XNXX",
   baseSite: "https://spotify.com",
   siteName: "Spotify Downloader",
   siteURL: "https://spotifydownloader.io",
@@ -14,7 +14,7 @@ const siteConfig = {
   buttonColor: "#1cdf63",
   GATag: "G-E0NGVPCQHJ",
   functional: "yes",
-  promotedBrand: "YTSaver",
+  promotedBrand: "iTubeGo",
   promotedBrandURL: "https://www.linkconnector.com/ta.php?lc=165043000007007573&lc_pid=Promo-42525&url=https://ytsaver.net/",
   promotedBrandSlug: "itubego",
   headerButtonCTA: "Download HD - All Sites",

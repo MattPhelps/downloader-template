@@ -4,16 +4,35 @@ import siteConfig from '../../../../siteConfig';
 const HowToUse = () => {
 
     
-
     let siteImagePath;
 
     switch (true) {
-        case siteConfig.baseSiteName == 'XNXX':
-            siteImagePath = '/images/lander/site-urls/xnxx-url.jpeg';
+        case siteConfig.baseSiteName == "PornHub":
+                siteImagePath = '/images/lander/site-urls/pornhub-url.jpeg';
+            break;
+            case siteConfig.baseSiteName == "XNXX":
+                siteImagePath = '/images/lander/site-urls/xnxx-url.jpeg';
+            break;
+            case siteConfig.baseSiteName == "XVIDEOS":
+                siteImagePath = '/images/lander/site-urls/xvideos-url.jpeg';
+            break;
+            case siteConfig.baseSiteName == "SpankBang":
+                siteImagePath = '/images/lander/site-urls/spankbang-url.jpeg';
+            break;
+            case siteConfig.baseSiteName == "xHamster":
+                siteImagePath = '/images/lander/site-urls/xhamster-url.jpeg';
+            break;
+            case siteConfig.baseSiteNamee == "RedTube":
+                siteImagePath = '/images/lander/site-urls/redtube-url.jpeg';
+            break;
+            case siteConfig.baseSiteNamee == "YouPorn":
+                siteImagePath = '/images/lander/site-urls/youporn-url.jpeg';
+            break;
             default:
-            siteImagePath = '/images/lander/site-urls/xnxx-url.jpeg';
+                siteImagePath = '/images/lander/site-urls/pornhub-url.jpeg';
             break;
     }
+
 
     return (
         <div>

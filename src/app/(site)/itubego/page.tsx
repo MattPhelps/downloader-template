@@ -1,12 +1,12 @@
 import { Metadata } from "next";
 import siteConfig from "../../../../siteConfig";
-import LanderHero from "@/components/iTubeGoLander/LanderHero/landerHero";
-import SupportedSites from "@/components/iTubeGoLander/SupportedSites/supportedSites";
-import FeaturesSection from "@/components/iTubeGoLander/Features/features";
-import HowToUse from "@/components/iTubeGoLander/HowToUse/howToUse";
-import HowToUseBar from "@/components/iTubeGoLander/HowToUseBar/howToUseBar";
-import Reviews from "@/components/iTubeGoLander/Reviews/reviews";
-import DownloadBar from "@/components/iTubeGoLander/DownloadBar/downloadBar";
+import LanderHero from "@/components/Lander/LanderHero/landerHero";
+import SupportedSites from "@/components/Lander/SupportedSites/supportedSites";
+import FeaturesSection from "@/components/Lander/Features/features";
+import HowToUse from "@/components/Lander/HowToUse/howToUse";
+import HowToUseBar from "@/components/Lander/HowToUseBar/howToUseBar";
+import Reviews from "@/components/Lander/Reviews/reviews";
+import DownloadBar from "@/components/Lander/DownloadBar/downloadBar";
 
 
 const pageTitle = `Buy ${siteConfig.promotedBrand} | ${siteConfig.siteName}`;
