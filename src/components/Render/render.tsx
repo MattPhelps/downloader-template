@@ -12,6 +12,16 @@ const Render = () => {
        
     };
 
+    let promotedURL;
+
+    if (siteConfig.promotedBrand == "iTubeGo") {
+        promotedURL = "itubego"
+    }
+
+    if (siteConfig.promotedBrand == "YTSaver") {
+        promotedURL = siteConfig.promotedBrandURL
+    }
+
     return (
         <div className='flex items-center gap-[10px] flex-col justify-center mt-[10px] w-full'>
             <p className='text-[18px] text-center leading-[1] max-w-[380px] lg:max-w-[540px] mb-4'>
@@ -52,7 +62,7 @@ const Render = () => {
         </div>
         <div className='w-full flex flex-col gap-[5px]'>
             <a title="This is a tooltip message"
-                href={siteConfig.promotedBrandURL}
+                href={promotedURL}
                 className="
                 justify-center
                 inline-flex
