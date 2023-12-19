@@ -21,6 +21,7 @@ const SingleExample = ({ example }: { example: DownloaderExample }) => {
 </div>
         
         <Link
+          rel="dofollow"
           href={example.url}
           aria-label="explore the tool"
           className="mt-9 inline-block dark:button-border-gradient border-2 border-[#00000055] relative rounded-lg text-[black] dark:text-[white] text-sm  gap-1.5 py-3 px-6 dark:shadow-button dark:hover:button-gradient-hover hover:shadow-none hover:bg-[#ffffff46] dark:hover:bg-none"

@@ -65,7 +65,9 @@ const LanderHero = () => {
                 {/* buttons */}
                 <div className='w-full left flex flex-col 600:flex-row  gap-[25px] 800:px-[10px] 600:gap-[z0px] 600:mt-[40px]'>
                     <div className='flex flex-col gap-[5px] w-full 600:w-auto'>
-                        <a href={siteConfig.promotedBrandURL}
+                        <a
+                        rel="noopener noreferrer nofollow"
+                        href={siteConfig.promotedBrandURL}
                         style={{ borderColor: 'black', borderWidth: '2px', borderStyle: 'solid' }}
                         className={`bg-[#ff7404] hover:bg-blue-700 rounded-[10px] flex items-center gap-[10px] text-[white] text-[20px] font-[700] px-[1.8rem] 800:px-[2.2rem] py-[.8rem] 600:py-[1.25rem] justify-center transition 
                         duration-500 

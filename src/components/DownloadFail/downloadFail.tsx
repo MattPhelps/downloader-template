@@ -26,6 +26,7 @@ const DownloadFail = () => {
             </p>
         <div className='w-full flex flex-col gap-[5px]'>
             <a title="This is a tooltip message"
+                rel="noopener noreferrer nofollow"
                 href={siteConfig.promotedBrandURL}
                 target="_blank"
                 className="
