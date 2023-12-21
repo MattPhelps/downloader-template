@@ -18,7 +18,6 @@ https://github.com/mattphelps/xhamster-downloader
 https://github.com/mattphelps/spankbang-downloader
 https://github.com/mattphelps/xvideos-downloader
 https://github.com/mattphelps/xnxx-downloader
-https://github.com/mattphelps/onlyfans-downloader
 https://github.com/mattphelps/pornhub-converter
 https://github.com/mattphelps/youporn-downloader
 https://github.com/mattphelps/redgifs-downloader
