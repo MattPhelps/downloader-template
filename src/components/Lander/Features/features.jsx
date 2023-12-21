@@ -1,5 +1,6 @@
 import React from 'react'
 import siteConfig from '../../../../siteConfig';
+import landerConfig from '../../../../landerConfig';
 
 const Features = () => {
     return (
@@ -146,14 +147,14 @@ const Features = () => {
                         <a
                         rel="noopener noreferrer nofollow"
                         href={siteConfig.promotedBrandURL}
-                        style={{ borderColor: 'black', borderWidth: '2px', borderStyle: 'solid' }}
-                        className={`bg-[#ff7404] hover:bg-blue-700 rounded-[10px] flex items-center gap-[10px] text-[white] text-[20px] font-[700] px-[1.8rem] 800:px-[2.2rem] py-[.8rem] 600:py-[1.25rem] justify-center
+                        style={{ borderColor: 'black', borderWidth: '2px', borderStyle: 'solid', backgroundColor: landerConfig.buttonColor }}
+                        className={`hover:bg-blue-700 rounded-[10px] flex items-center gap-[10px] text-[white] text-[20px] font-[700] px-[1.8rem] 800:px-[2.2rem] py-[.8rem] 600:py-[1.25rem] justify-center
                         duration-500 
                         ease-in-out
                         shadow-lg 
                         transform 
                         hover:scale-110`}>
-                            Get&nbsp;&nbsp;iTubeGo
+                            Get&nbsp;&nbsp;{siteConfig.promotedBrand}
                             <img className='w-[20px] h-[20px]' src="/images/icons/white-download.png" alt="" />
                         </a>
                             <p className='text-[12px] text-[#000000d5] text-center'>

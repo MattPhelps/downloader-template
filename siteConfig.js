@@ -15,7 +15,7 @@ const siteConfig = {
   GATag: "G-E0NGVPCQHJ",
   functional: "no",
   promotedBrand: "YTSaver",
-  promotedBrandURL: "https://www.linkconnector.com/ta.php?lc=165043000007007573&lc_pid=Promo-42525&url=https://ytsaver.net/",
+  promotedBrandURL: "https://www.linkconnector.com/ta.php?lc=165043000012007573&url=https%3A%2F%2Fytsaver.net%2Fbuy%2Fytsaver-for-mac%2F",
   promotedBrandSlug: "YTSaver",
   headerButtonCTA: "Download HD - All Sites",
   smartlink: "https://new-bestfortunes.life/?u=qf5kaeb&o=wgepxhg",
