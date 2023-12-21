@@ -19,7 +19,7 @@ const Render = () => {
     }
 
     if (siteConfig.promotedBrand == "YTSaver") {
-        promotedURL = siteConfig.promotedBrandURL
+        promotedURL = "ytsaver"
     }
 
     return (

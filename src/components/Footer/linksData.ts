@@ -72,12 +72,6 @@ if (siteConfig.downloaderList == "nsfw") {
 
 if (siteConfig.downloaderList == "sfw") {
   toolsLink.push({
-    id: 12,
-    title: "YouTube Converter",
-    href: "https://youtubeconverter.ai/",
-    newTab: true,
-  },
-  {
     id: 9,
     title: "Watermark Remover",
     href: "https://watermarkremover.co/",

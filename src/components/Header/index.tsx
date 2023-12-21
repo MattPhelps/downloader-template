@@ -23,7 +23,7 @@ const Header = () => {
     }
 
     if (siteConfig.promotedBrand == "YTSaver") {
-        promotedURL = siteConfig.promotedBrandURL
+        promotedURL = "ytsaver"
     }
 
 
@@ -138,7 +138,7 @@ const Header = () => {
 
                 <Link
                   href={promotedURL}
-                  target="_blank"
+                  target=""
                   rel="noopener noreferrer"
                   className="
                   border
