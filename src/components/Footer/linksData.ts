@@ -59,7 +59,7 @@ if (siteConfig.downloaderList == "nsfw") {
   toolsLink.push({
     id: 10,
     title: "Nudify",
-    href: "https://ainudify.com/",
+    href: "https://nudify.co/",
     newTab: true,
   },
   {
