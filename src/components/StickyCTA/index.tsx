@@ -4,7 +4,7 @@ import siteConfig from "../../../siteConfig";
 export default function ExternalLinkButton() {
   const [isVisible, setIsVisible] = useState(false);
 
-  
+  {/* 
   useEffect(() => {
     const toggleVisibility = () => {
       if (window.pageYOffset > 300) {
@@ -17,7 +17,7 @@ export default function ExternalLinkButton() {
     window.addEventListener("scroll", toggleVisibility);
 
     return () => window.removeEventListener("scroll", toggleVisibility);
-  }, []); 
+  }, []); */}
 
   return (
     <a

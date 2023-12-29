@@ -5,17 +5,6 @@ import siteConfig from "../../../siteConfig";
 // thumnail.jpg
 const DownloadFail = () => {
     const color = siteConfig.buttonColor
-
-  let promotedURL;
-
-    if (siteConfig.promotedBrand == "iTubeGo") {
-        promotedURL = "itubego"
-    }
-
-    if (siteConfig.promotedBrand == "YTSaver") {
-        promotedURL = "ytsaver"
-    }
-
     return (
         <div className='flex items-center gap-[10px] flex-col justify-center mt-[10px] w-full'>
             
@@ -37,9 +26,8 @@ const DownloadFail = () => {
             </p>
         <div className='w-full flex flex-col gap-[5px]'>
             <a title="This is a tooltip message"
-                rel="noopener noreferrer nofollow"
-                href={promotedURL}
-                target=""
+                href={siteConfig.promotedBrandURL}
+                target="_blank"
                 className="
                 justify-center
                 inline-flex

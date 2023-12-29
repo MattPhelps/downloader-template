@@ -99,7 +99,7 @@ const HeroBottom = () => {
                     </p>
                      {/* eslint-disable-next-line */}
                     <img src={data[slide].img} alt="" className='pt-[10px] sm:pt-[20px]' />
-                    <Link href={"/"} className='text-blue-600 mt-[10px]'>Watch iTubeGo Saver in Action {">>"}</Link>
+                    <Link href={"/"} className='text-blue-600 mt-[10px]'>Watch YT Saver in Action {">>"}</Link>
                     <div onClick={next} className='absolute top-[70%] sm:top-auto right-0 800:right-[-20px] z-50 cursor-pointer'>
                         <FaCircleArrowRight className='text-[23px] text-gray-600' />
                     </div>

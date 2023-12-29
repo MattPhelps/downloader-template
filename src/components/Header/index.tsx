@@ -16,16 +16,6 @@ const Header = () => {
   const [navigationOpen, setNavigationOpen] = useState(false);
   const pathUrl = usePathname();
 
-  let promotedURL;
-
-    if (siteConfig.promotedBrand == "iTubeGo") {
-        promotedURL = "itubego"
-    }
-
-    if (siteConfig.promotedBrand == "YTSaver") {
-        promotedURL = "ytsaver"
-    }
-
 
   return (
     <>
@@ -137,8 +127,8 @@ const Header = () => {
                 <ThemeSwitcher />
 
                 <Link
-                  href={promotedURL}
-                  target=""
+                  href={siteConfig.promotedBrandURL}
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="
                   border

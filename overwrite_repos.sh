@@ -12,7 +12,7 @@ CONFIG_FILE="siteConfig.js"
 
 # List of repositories to overwrite
 repos=(
-https://github.com/mattphelps/tporn-downloader
+    https://github.com/mattphelps/tporn-downloader
 https://github.com/mattphelps/hclips-downloader
 https://github.com/mattphelps/hotmovs-downloader
 https://github.com/mattphelps/porntube-downloader

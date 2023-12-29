@@ -1,12 +1,15 @@
 import { Metadata } from "next";
 import siteConfig from "../../../../siteConfig";
 import LanderHero from "@/components/Lander/LanderHero/landerHero";
+import HeroBottom from "@/components/Lander/HeroBottom/heroBottom";
 import SupportedSites from "@/components/Lander/SupportedSites/supportedSites";
 import FeaturesSection from "@/components/Lander/Features/features";
-import HowToUse from "@/components/Lander/HowToUse/howToUse";
-import HowToUseBar from "@/components/Lander/HowToUseBar/howToUseBar";
+import HowToSave from "@/components/Lander/HowToSave/howToSave";
+import Awards from "@/components/Lander/Awards/awards";
 import Reviews from "@/components/Lander/Reviews/reviews";
 import DownloadBar from "@/components/Lander/DownloadBar/downloadBar";
+import FaqsTips from "@/components/Lander/FaqsTips/faqTips";
+import FooterTop from "@/components/Lander/FooterTop/footerTop";
 
 
 const pageTitle = `Buy ${siteConfig.promotedBrand} | ${siteConfig.siteName}`;
@@ -22,10 +25,11 @@ const landerPage = () => {
     <div className="wrapper">
       <LanderHero />
       <SupportedSites/>
+      <HeroBottom />
       <FeaturesSection/>
-      <HowToUseBar/> 
-      <HowToUse/> 
+      <HowToSave/>
       <Reviews/>
+      <FaqsTips/>
       <DownloadBar/>
     </div>
   );

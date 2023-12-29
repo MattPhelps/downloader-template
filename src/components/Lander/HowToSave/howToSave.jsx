@@ -22,7 +22,7 @@ const HowToSave = () => {
             <div className='content center mt-[40px] sm:pt-[60px] pb-[50px] px-[20px]'>
                 <div className='w-full max-w-[1000px] center flex flex-col'>
                     <h2 className='font-extrabold text-[34px] text-center text-[black]'>
-                        Download <i>Any</i> Video in 3 Steps
+                        How to Download Videos with iTubeGo
                     </h2>
                     <div className='900:w-full flex flex-wrap justify-center 900:justify-between items-center gap-[30px] mt-[50px] max-w-[600px] 900:max-w-[1000px]'>
                         {
@@ -40,7 +40,9 @@ const HowToSave = () => {
                             ))
                         }
                     </div>
-
+                    <div className='center pt-[30px] sm:mt-[40px]'>
+                        <button className='py-[8px] rounded-[5px] px-[20px] sm:px-[32px] hover:text-white border-[2px] border-[blue] text-[blue] bg-white hover:bg-[blue]'>View Full Guide →</button>
+                    </div>
                 </div>
             </div>
         </div>
