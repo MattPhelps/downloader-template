@@ -4,17 +4,32 @@ import Link from "next/link";
 import siteConfig from "../../../../siteConfig";
 import Render from "../../../components/Render/render";
 import DownloadFail from "../../../components/DownloadFail/downloadFail";
-import { useState, useRef } from "react";
+import React, { useState, useEffect, useRef } from 'react';
 require('dotenv').config();
 import {TailSpin} from "react-loader-spinner"; 
 const Hero = () => {
   const [videoUrl, setVideoUrl] = useState(''); 
-  const [showRender, setShowRender] = useState(false); 
+  const [showRender, setShowRender] = useState(false);
+  const [showFail, setShowFail] = useState(false); 
   const [renderInfo, setRenderInfo] = useState({}); 
   const renderRef = useRef(null); // Create a ref for the Render component
+  const failRef = useRef(null); // Create a ref for the Render component
   const [loading, setLoading] = useState(false);
 
+  useEffect(() => {
+    if (showRender && renderRef.current) {
+      renderRef.current.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    } else if (showFail && failRef.current) {
+      failRef.current.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+  }, [showRender, showFail]);
+
   const handleDownloadClick = async (event) => {
+
+    if (siteConfig.functional == "no") {
+      window.open(siteConfig.smartlink, "_blank");
+    }
+
     try {
       event.preventDefault();
 
@@ -51,21 +66,21 @@ const Hero = () => {
 
       if (videoInfo) {
         console.log('Video Information:', videoInfo);
-
         // Pass the relevant information to the Render component
-        setShowRender(true);
         setLoading(false);
         setRenderInfo(videoInfo);
-
-        // Scroll to the Render component after state update
-        setTimeout(() => {
-          renderRef.current?.scrollIntoView({ behavior: 'smooth', block: 'center' });
-        }, 0);
+        setShowRender(true);
+  
       } else {
         console.error('No video information found.');
+        setLoading(false);
+        setShowFail(true);
+
       }
     } catch (error) {
       console.error('Error:', error.message);
+        setLoading(false);
+        setShowFail(true);
     }
   };
 
@@ -160,8 +175,18 @@ const Hero = () => {
           <Render  renderInfo={renderInfo}/>
         </div>
       )}
+       {showFail && (
+        <div
+          ref={failRef} // Attach the ref to this div
+          className="flex justify-center items-center w-full h-screen" // Added flexbox for centering
+        >
+          <DownloadFail />
+        </div>
+      )}
       </div>
     </section>
+
+    
   );
 };
 

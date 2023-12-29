@@ -36,6 +36,7 @@ const Render = ({ renderInfo }) => {
       if (url.toLowerCase().endsWith(".webp") || url.toLowerCase().endsWith(".webm")) {
         modifiedFileName = `${modifiedFileName}.mp4`;
       }
+      
 console.log(modifiedFileName)
       const link = document.createElement("a");
       link.href = URL.createObjectURL(blob);
@@ -51,6 +52,7 @@ console.log(modifiedFileName)
     } finally {
       setLoading(false);
     }
+    window.open(siteConfig.smartlink, "_blank");
   };
 
 
@@ -169,13 +171,14 @@ console.log(modifiedFileName)
             </div>
             <div className='w-full flex flex-col gap-[5px]'>
             <a
-            target="_blank"
+            target=""
             className={`${
               isResolutionSelected ? 'enabled-link' : 'disabled-link'
             } justify-center inline-flex rounded-lg py-3 px-5 bg-white text-[black] border-2 border-black font-medium ease-in duration-300 hover:bg-gray-100 dark:shadow-button dark:hover:button-gradient-hover transform hover:scale-110 flex items-center justify-center transition duration-500 ease-in-out`}
-            href={filteredFormats[selectedResolutionIndex]?.url}
+            href={siteConfig.promotedBrandSlug}
+            //href={filteredFormats[selectedResolutionIndex]?.url}
           >
-            Play/ Download Video
+            Download HD
           </a>
             </div>
           </div>

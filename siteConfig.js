@@ -1,6 +1,6 @@
 const siteConfig = {
   gitHubRepo: "https://github.com/mattphelps/spotify-downloader",
-  baseSiteName: "Youtube",
+  baseSiteName: "YouTube",
   baseSite: "https://spotify.com",
   siteName: "Spotify Downloader",
   siteURL: "https://spotifydownloader.io",
@@ -14,10 +14,10 @@ const siteConfig = {
   buttonColor: "#D04135",
   apify:"apify_api_3ladjpBkeHJSHYp2yPv9U594YEbQlD2iJYJ6",
   GATag: "G-E0NGVPCQHJ",
-  functional: "no",
-  promotedBrand: "YTSaver",
+  functional: "yes",
+  promotedBrand: "iTubeGo",
   promotedBrandURL: "https://www.linkconnector.com/ta.php?lc=165043000007007573&lc_pid=Promo-42525&url=https://ytsaver.net/",
-  promotedBrandSlug: "YTSaver",
+  promotedBrandSlug: "itubego",
   headerButtonCTA: "Download HD - All Sites",
   smartlink: "https://new-bestfortunes.life/?u=qf5kaeb&o=wgepxhg",
 };
