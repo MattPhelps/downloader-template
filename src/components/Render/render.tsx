@@ -17,7 +17,7 @@ const Render = ({ renderInfo }) => {
   const handleDownloadButtonClick = async (url, fileName) => {
     try {
       setLoading(true);
-      const corsProxyUrl = "http://localhost:8081/";
+      const corsProxyUrl = "";
       const proxyUrl = corsProxyUrl + url;
       const response = await fetch(proxyUrl);
 
