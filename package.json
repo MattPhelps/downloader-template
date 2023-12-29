@@ -22,6 +22,7 @@
     "axios": "^1.5.1",
     "bcrypt": "^5.1.0",
     "canvas": "^2.10.1",
+    "dotenv": "^16.3.1",
     "eslint": "8.46.0",
     "eslint-config-next": "13.4.12",
     "fslightbox-react": "^1.7.6",
