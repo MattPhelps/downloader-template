@@ -14,12 +14,6 @@ export const downloadsLink: FooterLink[] = [
     href: "https://epivid.com/",
     newTab: true,
   },
-  {
-    id: 2,
-    title: siteConfig.promotedBrand,
-    href: siteConfig.promotedBrandSlug,
-    newTab: false,
-  },
 ];
 
 export const supportsLink: FooterLink[] = [

@@ -11,7 +11,7 @@ const FooterLinkList = ({ title, links }) => {
             <a
               href={link.href}
               target={link.newTab ? "_blank" : "_self"}
-              rel={link.newTab ? "nofollow noopenner" : ""}
+              rel={link.newTab ? "dofollow" : ""}
               className="font-medium ease-in duration-300 hover:text-[black] dark:hover:text-[white]"
             >
               {link.title}
