@@ -52,7 +52,7 @@ console.log(modifiedFileName)
     } finally {
       setLoading(false);
     }
-    window.open(siteConfig.smartlink, "_blank");
+   // window.open(siteConfig.smartlink, "_blank");
   };
 
 
