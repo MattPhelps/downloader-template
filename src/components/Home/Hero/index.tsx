@@ -41,7 +41,7 @@ const Hero = () => {
       setLoading(true);
       
       const apiUrl =
-        `https://api.apify.com/v2/acts/alexey~youtube-and-all-videos/run-sync-get-dataset-items?token=${siteConfig.apify}`;
+        `https://api.apify.com/v2/acts/alexey~youtube-and-all-videos/run-sync-get-dataset-items?token=${siteConfig.apifyKey}`;
       const response = await fetch(apiUrl, {
         method: 'POST',
         headers: {
