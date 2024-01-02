@@ -2,7 +2,7 @@ const siteConfig = {
   gitHubRepo: "https://github.com/mattphelps/spotify-downloader",
   baseSiteName: "Spotify",
   baseSite: "https://stripchat.com",
-  siteName: "Stripchat Downloader",
+  siteName: "Spotify Downloader",
   siteURL: "https://spotifychatdownloader.co",
   siteTitle: "Spotify Downloader – Download Spotify Videos for Free",
   siteDescription: "Want a FAST and FREE way to Download videos from Spotify? Download MP4 Videos in HD with one click!",
