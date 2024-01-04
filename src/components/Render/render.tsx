@@ -1,12 +1,13 @@
 import Image from "next/image";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import siteConfig from "../../../siteConfig";
 import { TailSpin } from "react-loader-spinner";
 
 const Render = ({ renderInfo }) => {
   const [selectedResolutionIndex, setSelectedResolutionIndex] = useState(0);
+  const [videoValid, setVideoValid] = useState(true);
   const [filteredFormats, setFilteredFormats] = useState(
-    renderInfo.formats.filter((r) => !r.url.includes('manifest')).reverse().splice(1,10)
+    renderInfo.formats.filter((r) => !r.url.includes('manifest')).reverse().splice(1,5)
   );
   const isResolutionSelected = selectedResolutionIndex !== null;
   const handleResolutionChange = (index) => {
@@ -17,18 +18,19 @@ const Render = ({ renderInfo }) => {
   const handleDownloadButtonClick = async (url, fileName) => {
     try {
       setLoading(true);
-      const corsProxyUrl = "";
-      const proxyUrl = corsProxyUrl + url;
-      const response = await fetch(proxyUrl);
+      const corsProxyUrl = "/api/proxy?url=";
+      const proxyUrl = corsProxyUrl + encodeURIComponent(url);
+      const response:any = await fetch(proxyUrl);
 
       if (!response.ok) {
         throw new Error(`Failed to fetch video file. Status: ${response.status}`);
       }
-
-      const blob = await response.blob();
-
+  
+      const arrayBuffer = await response.arrayBuffer();
+      const blob = new Blob([arrayBuffer], { type: response.headers.get("content-type") });
+  
       // Check if the file is WebP or WebM and change the extension to ".mp4"
-      console.log(fileName)
+      console.log(fileName);
       const hasFileExtension = /\.\w+$/g.test(fileName);
       let modifiedFileName = hasFileExtension ? fileName : `${fileName}.mp4`;
   
@@ -36,24 +38,55 @@ const Render = ({ renderInfo }) => {
       if (url.toLowerCase().endsWith(".webp") || url.toLowerCase().endsWith(".webm")) {
         modifiedFileName = `${modifiedFileName}.mp4`;
       }
-      
-console.log(modifiedFileName)
+  
+      console.log(modifiedFileName);
       const link = document.createElement("a");
       link.href = URL.createObjectURL(blob);
       link.download = modifiedFileName;
-
+  
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
-
+  
       URL.revokeObjectURL(link.href);
     } catch (error) {
       console.error("Error downloading video:", error.message);
     } finally {
       setLoading(false);
     }
-   // window.open(siteConfig.smartlink, "_blank");
   };
+  async function checkValidVideo(url) {
+    const corsProxyUrl = "/api/proxy?url=";
+    const proxyUrl = corsProxyUrl + encodeURIComponent(url);
+    const timeout = 5000;
+  
+    try {
+      const controller = new AbortController();
+      const timeoutId = setTimeout(() => controller.abort(), timeout);
+  
+      const responsePromise = fetch(proxyUrl, { signal: controller.signal });
+      const response:any = await Promise.race([responsePromise, new Promise((_, reject) => setTimeout(() => reject(new Error('Timeout')), timeout))]);
+  
+      if (!response.ok) {
+        setVideoValid(false);
+      } else {
+        setVideoValid(true);
+      }
+    } catch (error) {
+      if (error.name === 'AbortError') {
+        console.error('API call timed out');
+        setVideoValid(true);
+      } else {
+        console.error('Error during API call:', error.message);
+      }
+    }
+  }
+  
+  
+  useEffect(()=>{
+    setFilteredFormats(renderInfo.formats.filter((r) => !r.url.includes('manifest')).reverse().splice(1,10))
+    checkValidVideo(renderInfo.formats.filter((r) => !r.url.includes('manifest')).reverse().splice(1,10)[9].url)
+  },[renderInfo])
 
 
   const handleButtonClick = () => {
@@ -95,6 +128,9 @@ console.log(modifiedFileName)
       ) : (
         ""
       )}
+       {!videoValid ? (
+        <p className="text-red-500" style={{ color: "red" }}>This video is not downloadable.</p>
+      ) : (
       <div className="flex flex-col lg:flex-row gap-[0px] lg:gap-[10px] items-center lg:items-center rounded-[10px] px-[10px]">
         <div className="px-[10px] sm:px-0 mr-[20px] lg:mr-[30px]">
           <Image
@@ -184,6 +220,7 @@ console.log(modifiedFileName)
           </div>
         </div>
       </div>
+       )}
     </div>
   );
 };
