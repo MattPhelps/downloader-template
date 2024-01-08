@@ -1,5 +1,6 @@
 import { DownloaderExample } from "@/types/DownloaderExample";
 import Link from "next/link";
+import Image from "next/image";
 
 const SingleExample = ({ example }: { example: DownloaderExample }) => {
   return (
@@ -13,8 +14,7 @@ const SingleExample = ({ example }: { example: DownloaderExample }) => {
         
 
         <div className="flex items-center space-x-4">
-        <img src={example.icon || "/images/favicons/default.png"} alt="Site Logo" className="w-8 h-8" />
-
+        <Image src={example.icon || "/images/favicons/default.png"} alt="Site Logo" width={8} height={8} />
     <h4 className="font-semibold text text-[black] dark:text-[white] mb-4">
         {example.title}
     </h4>

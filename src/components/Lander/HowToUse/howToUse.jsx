@@ -1,7 +1,7 @@
 import React from 'react';
 import siteConfig from '../../../../siteConfig';
 import landerConfig from '../../../../landerConfig';
-
+import Image from "next/image";
 const HowToUse = () => {
 
     return (
@@ -11,13 +11,13 @@ const HowToUse = () => {
                 
                 {/* Image */}
                 <div className='hidden lg:flex lg:w-full p-[40px] flex-col justify-start items-center'>
-                    <img src={landerConfig.siteImagePath} alt='Your Image Description' className='max-w-full h-auto' />
+                    <Image src={landerConfig.siteImagePath} alt='Your Image Description' className='max-w-full h-auto' />
                 </div>
 
                 {/* Text Content */}
                 <div className='w-full lg:w-full flex flex-col pb-[40px] 700:py-[80px] px-[15px] 700:px-[25px] 800:px-[50px] 1000:px-[85px]'>
                     <h1 style={{ lineHeight: '1.4' }} className='text-[black] dark:text-white mb-6 800:px-[0px] text-xl font-bold sm:text-3xl xl:text-heading flex items-center'>
-                        <img src={landerConfig.iconPath1} alt='Step 1' style={{ marginRight: '10px' }} className='w-[40px] max-w-[40px]' />
+                        <Image src={landerConfig.iconPath1} alt='Step 1' style={{ marginRight: '10px' }} className='w-[40px] max-w-[40px]' />
                         Copy the Video URL
                     </h1>
 
@@ -34,13 +34,13 @@ const HowToUse = () => {
                 
                 {/* Image */}
                 <div className='hidden lg:flex lg:w-full p-[40px] flex-col justify-start items-center'>
-                    <img src={landerConfig.howToUse2} alt='Your Image Description' className='max-w-full h-auto' />
+                    <Image src={landerConfig.howToUse2} alt='Your Image Description' className='max-w-full h-auto' />
                 </div>
 
                 {/* Text Content */}
                 <div className='w-full lg:w-full flex flex-col pb-[40px] 700:py-[80px] px-[15px] 700:px-[25px] 800:px-[50px] 1000:px-[85px]'>
                     <h1 style={{ lineHeight: '1.4' }} className='text-[black] dark:text-white mb-6 800:px-[0px] text-xl font-bold sm:text-3xl xl:text-heading flex items-center'>
-                        <img src={landerConfig.iconPath2} alt='Step 2' style={{ marginRight: '10px' }} className='w-[40px] max-w-[40px]' />
+                        <Image src={landerConfig.iconPath2} alt='Step 2' style={{ marginRight: '10px' }} className='w-[40px] max-w-[40px]' />
                         Choose Format and Quality
                     </h1>
 
@@ -57,13 +57,13 @@ const HowToUse = () => {
                 
                 {/* Image */}
                 <div className='hidden lg:flex lg:w-full p-[40px] flex-col justify-start items-center'>
-                    <img src={landerConfig.howToUse3} alt='Your Image Description' className='max-w-full h-auto' />
+                    <Image src={landerConfig.howToUse3} alt='Your Image Description' className='max-w-full h-auto' />
                 </div>
 
                 {/* Text Content */}
                 <div className='w-full lg:w-full flex flex-col pb-[40px] 700:py-[80px] px-[15px] 700:px-[25px] 800:px-[50px] 1000:px-[85px]'>
                     <h1 style={{ lineHeight: '1.4' }} className='text-[black] dark:text-white mb-6 800:px-[0px] text-xl font-bold sm:text-3xl xl:text-heading flex items-center'>
-                        <img src={landerConfig.iconPath3} alt='Step 3' style={{ marginRight: '10px' }} className='w-[40px] max-w-[40px]' />
+                        <Image src={landerConfig.iconPath3} alt='Step 3' style={{ marginRight: '10px' }} className='w-[40px] max-w-[40px]' />
                         Paste Multiple URLs
                     </h1>
 
@@ -80,13 +80,13 @@ const HowToUse = () => {
                 
                 {/* Image */}
                 <div className='hidden lg:flex lg:w-full p-[40px] flex-col justify-start items-center'>
-                    <img src={landerConfig.howToUse4} alt='Your Image Description' className='max-w-full h-auto' />
+                    <Image src={landerConfig.howToUse4} alt='Your Image Description' className='max-w-full h-auto' />
                 </div>
 
                 {/* Text Content */}
                 <div className='w-full lg:w-full flex flex-col pb-[40px] 700:py-[80px] px-[15px] 700:px-[25px] 800:px-[50px] 1000:px-[85px]'>
                     <h1 style={{ lineHeight: '1.4' }} className='text-[black] dark:text-white mb-6 800:px-[0px] text-xl font-bold sm:text-3xl xl:text-heading flex items-center'>
-                        <img src={landerConfig.iconPath4} alt='Step 4' style={{ marginRight: '10px' }} className='w-[40px] max-w-[40px]' />
+                        <Image src={landerConfig.iconPath4} alt='Step 4' style={{ marginRight: '10px' }} className='w-[40px] max-w-[40px]' />
                         DONE!
                     </h1>
 

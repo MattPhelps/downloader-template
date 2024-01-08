@@ -12,8 +12,8 @@ const Hero = () => {
   const [showRender, setShowRender] = useState(false);
   const [showFail, setShowFail] = useState(false); 
   const [renderInfo, setRenderInfo] = useState({}); 
-  const renderRef = useRef(null); // Create a ref for the Render component
-  const failRef = useRef(null); // Create a ref for the Render component
+  const renderRef: any = useRef(null); // Create a ref for the Render component
+  const failRef: any = useRef(null); // Create a ref for the Render component
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {

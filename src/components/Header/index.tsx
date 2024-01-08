@@ -35,7 +35,7 @@ const Header = () => {
         <div className="max-w-[1170px] mx-auto px-4 sm:px-8 xl:px-0 lg:flex items-center justify-between relative">
           <div className="w-full text-white text-xl font-bold lg:w-1/4 flex items-center justify-between">
             <Link href="/" className="flex items-center">
-              <img
+              <Image
                 src={
                   siteConfig.baseSite
                     ? `${siteConfig.faviconPath}`
@@ -48,7 +48,7 @@ const Header = () => {
               />
 
               <h1 className="inline-block text-[black] dark:text-[white]">
-                {siteConfig.siteName}
+                {siteConfig.siteName} fdfd    
               </h1>
             </Link>
             <button

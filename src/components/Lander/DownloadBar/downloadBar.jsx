@@ -2,7 +2,7 @@
 import React, { useState } from 'react'
 import siteConfig from '../../../../siteConfig';
 import landerConfig from '../../../../landerConfig';
-
+import Image from "next/image";
 const DownloadBar = () => {
     const [downloadFor, setDownloadFor] = useState("windows")
     return (
@@ -25,7 +25,7 @@ const DownloadBar = () => {
                         transform 
                         hover:scale-110`}>
                             Get&nbsp;&nbsp;{siteConfig.promotedBrand}
-                            <img className='w-[20px] h-[20px]' src="/images/icons/white-download.png" alt="" />
+                            <Image className='w-[20px] h-[20px]' src="/images/icons/white-download.png" alt="" />
                         </a>
                             <p className='text-[12px] text-[black] text-center'>
                             Works on all devices

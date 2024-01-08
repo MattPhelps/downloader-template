@@ -3,7 +3,7 @@ import React from 'react'
 import { FaWindows } from "react-icons/fa";
 import siteConfig from '../../../../siteConfig';
 import landerConfig from '../../../../landerConfig';
-
+import Image from "next/image";
 const LanderHero = () => {
 
 
@@ -14,13 +14,13 @@ const LanderHero = () => {
                 {/* Label above the image */}
                 <div className='flex items-center justify-center mb-8'>
                     {/* Logo */}
-                    <img src={landerConfig.brandLogoPath} alt='Brand Logo' className='w-[24px] h-[25px] mr-2' />
+                    <Image src={landerConfig.brandLogoPath} alt='Brand Logo'  className='w-[24px] h-[25px] mr-2' />
                     
                     {/* Text */}
                     <span className='text-[24px] text-[black] font-bold'>{siteConfig.promotedBrand}</span>
                 </div>
                 {/* Replace with your image path */}
-                <img src={landerConfig.landerScreenshotPath} alt='Your Image Description' className='max-w-full h-auto' />
+                <Image src={landerConfig.landerScreenshotPath} alt='Your Image Description' className='max-w-full h-auto' />
             </div>
 
             {/* Existing content */}
@@ -52,7 +52,7 @@ const LanderHero = () => {
                         transform 
                         hover:scale-110`}>
                             Get&nbsp;&nbsp;{siteConfig.promotedBrand}
-                            <img className='w-[20px] h-[20px]' src="/images/icons/white-download.png" alt="" />
+                            <Image className='w-[20px] h-[20px]' src="/images/icons/white-download.png" alt="" />
                         </a>
 
                         <p className='text-[12px] text-center text-[black]'>
@@ -63,7 +63,7 @@ const LanderHero = () => {
                 {/* stars */}
                 <div className='flex left 800:px-[10px] mt-[40px]'>
                     <div className='flex items-center gap-[10px]'>
-                        <img src="/images/lander/icons/star.png" className='max-w-[140px]' alt="" />
+                        <Image src="/images/lander/icons/star.png" className='max-w-[140px]' alt="" />
                         <p className='400:text-[16px] text-[black]'>4.8 / 5 (Trustpilot)</p>
                     </div>
                 </div>

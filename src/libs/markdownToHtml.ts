@@ -16,7 +16,7 @@ export function getPostBySlug(slug, fields = [], dirName) {
   const fileContents = fs.readFileSync(fullPath, "utf8");
   const { data, content } = matter(fileContents);
 
-  const items = {};
+  const items: any = {};
 
   // Ensure only the minimal needed data is exposed
   fields.forEach((field) => {

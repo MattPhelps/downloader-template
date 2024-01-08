@@ -1,7 +1,7 @@
 import React from 'react'
 import siteConfig from '../../../../siteConfig';
 import landerConfig from '../../../../landerConfig';
-
+import Image from "next/image";
 const Features = () => {
     return (
         <div className='wrapper'>
@@ -15,7 +15,7 @@ const Features = () => {
                             <div className='flex items-center  800:items-start flex-col 800:flex-row gap-[15px]'>
                                 <div className='pt-[0px]'>
                                     {/* eslint-disable-next-line */}
-                                    <img src="/images/icons/tick.png" alt="" className='w-[40px] max-w-[40px]' />
+                                    <Image src="/images/icons/tick.png" alt="" className='w-[40px] max-w-[40px]' />
                                 </div>
                                 <div className='flex flex-col gap-[13px] max-w-[370px]'>
                                     <h3 className='text-[24px] font-bold text-center text-[black] 800:text-start leading-[1.5]'>
@@ -31,7 +31,7 @@ const Features = () => {
                             <div className='flex items-center  800:items-start flex-col 800:flex-row gap-[15px]'>
                                 <div className='pt-[0px]'>
                                     {/* eslint-disable-next-line */}
-                                    <img src="/images/icons/tick.png" alt="" className='w-[40px] max-w-[40px]' />
+                                    <Image src="/images/icons/tick.png" alt="" className='w-[40px] max-w-[40px]' />
                                 </div>
                                 <div className='flex flex-col gap-[13px] max-w-[370px]'>
                                     <h3 className='text-[24px] font-bold text-center text-[black] 800:text-start leading-[1.5]'>
@@ -47,7 +47,7 @@ const Features = () => {
                             <div className='flex items-center  800:items-start flex-col 800:flex-row gap-[15px]'>
                                 <div className='pt-[0px]'>
                                     {/* eslint-disable-next-line */}
-                                    <img src="/images/icons/tick.png" alt="" className='w-[40px] max-w-[40px]' />
+                                    <Image src="/images/icons/tick.png" alt="" className='w-[40px] max-w-[40px]' />
                                 </div>
                                 <div className='flex flex-col gap-[13px] max-w-[370px]'>
                                     <h3 className='text-[24px] font-bold text-center text-[black] 800:text-start leading-[1.5]'>
@@ -63,7 +63,7 @@ const Features = () => {
                             <div className='flex items-center  800:items-start flex-col 800:flex-row gap-[15px]'>
                                 <div className='pt-[0px]'>
                                     {/* eslint-disable-next-line */}
-                                    <img src="/images/icons/tick.png" alt="" className='w-[40px] max-w-[40px]' />
+                                    <Image src="/images/icons/tick.png" alt="" className='w-[40px] max-w-[40px]' />
                                 </div>
                                 <div className='flex flex-col gap-[13px] max-w-[370px]'>
                                     <h3 className='text-[24px] font-bold text-center text-[black] 800:text-start leading-[1.5]'>
@@ -79,7 +79,7 @@ const Features = () => {
                             <div className='flex items-center  800:items-start flex-col 800:flex-row gap-[15px]'>
                                 <div className='pt-[0px]'>
                                     {/* eslint-disable-next-line */}
-                                    <img src="/images/icons/tick.png" alt="" className='w-[40px] max-w-[40px]' />
+                                    <Image src="/images/icons/tick.png" alt="" className='w-[40px] max-w-[40px]' />
                                 </div>
                                 <div className='flex flex-col gap-[13px] max-w-[370px]'>
                                     <h3 className='text-[24px] font-bold text-center text-[black] 800:text-start leading-[1.5]'>
@@ -95,7 +95,7 @@ const Features = () => {
                             <div className='flex items-center  800:items-start flex-col 800:flex-row gap-[15px]'>
                                 <div className='pt-[0px]'>
                                     {/* eslint-disable-next-line */}
-                                    <img src="/images/icons/tick.png" alt="" className='w-[40px] max-w-[40px]' />
+                                    <Image src="/images/icons/tick.png" alt="" className='w-[40px] max-w-[40px]' />
                                 </div>
                                 <div className='flex flex-col gap-[13px] max-w-[370px]'>
                                     <h3 className='text-[24px] font-bold text-center text-[black] 800:text-start leading-[1.5]'>
@@ -111,7 +111,7 @@ const Features = () => {
                             <div className='flex items-center  800:items-start flex-col 800:flex-row gap-[15px]'>
                                 <div className='pt-[0px]'>
                                     {/* eslint-disable-next-line */}
-                                    <img src="/images/icons/tick.png" alt="" className='w-[40px] max-w-[40px]' />
+                                    <Image src="/images/icons/tick.png" alt="" className='w-[40px] max-w-[40px]' />
                                 </div>
                                 <div className='flex flex-col gap-[13px] max-w-[370px]'>
                                     <h3 className='text-[24px] font-bold text-center text-[black] 800:text-start leading-[1.5]'>
@@ -127,7 +127,7 @@ const Features = () => {
                             <div className='flex items-center  800:items-start flex-col 800:flex-row gap-[15px]'>
                                 <div className='pt-[0px]'>
                                     {/* eslint-disable-next-line */}
-                                    <img src="/images/icons/tick.png" alt="" className='w-[40px] max-w-[40px]' />
+                                    <Image src="/images/icons/tick.png" alt="" className='w-[40px] max-w-[40px]' />
                                 </div>
                                 <div className='flex flex-col gap-[13px] max-w-[370px]'>
                                     <h3 className='text-[24px] font-bold text-center text-[black] 800:text-start leading-[1.5]'>
@@ -155,7 +155,7 @@ const Features = () => {
                         transform 
                         hover:scale-110`}>
                             Get&nbsp;&nbsp;{siteConfig.promotedBrand}
-                            <img className='w-[20px] h-[20px]' src="/images/icons/white-download.png" alt="" />
+                            <Image className='w-[20px] h-[20px]' src="/images/icons/white-download.png" alt="" />
                         </a>
                             <p className='text-[12px] text-[#000000d5] text-center'>
                                 Works on all devices

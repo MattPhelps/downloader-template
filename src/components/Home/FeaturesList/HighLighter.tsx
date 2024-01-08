@@ -9,14 +9,14 @@ const Highlighter = ({ children }) => {
   const containerSize = useRef({ w: 0, h: 0 });
 
   const initContainer = () => {
-    const containerElement = containerRef.current;
+    const containerElement: any = containerRef.current;
     containerSize.current.w = containerElement.offsetWidth;
     containerSize.current.h = containerElement.offsetHeight;
   };
 
   const onMouseMove = (event) => {
     const { clientX, clientY } = event;
-    const containerElement = containerRef.current;
+    const containerElement: any = containerRef.current;
     const rect = containerElement.getBoundingClientRect();
     const { w, h } = containerSize.current;
     const x = clientX - rect.left;
