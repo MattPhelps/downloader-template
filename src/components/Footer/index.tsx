@@ -27,7 +27,7 @@ const Footer = () => {
               </div>
 
               <p className="font-medium mt-5.5">
-                {siteConfig.siteName} - All Rights Reserved.
+                {siteConfig.siteName} - All Rights Reserved. Owned by LeandMe.
               </p>
               
               {/* Disclaimer section */}
