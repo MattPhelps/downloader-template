@@ -7,13 +7,7 @@ export const downloadsLink: FooterLink[] = [
     title: "All Downloaders",
     href: "downloaders",
     newTab: false,
-  },
-  {
-    id: 13,
-    title: "Epivid",
-    href: "https://epivid.com/",
-    newTab: true,
-  },
+  }
 ];
 
 export const supportsLink: FooterLink[] = [
@@ -52,8 +46,8 @@ export const toolsLink: FooterLink[] = [
 if (siteConfig.downloaderList == "nsfw") {
   toolsLink.push({
     id: 10,
-    title: "Nudify",
-    href: "https://nudify.co/",
+    title: siteConfig.nudifyAnchorText,
+    href: siteConfig.nudifyURL,
     newTab: true,
   },
   {

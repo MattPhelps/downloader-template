@@ -48,7 +48,7 @@ const Header = () => {
               />
 
               <h1 className="inline-block text-[black] dark:text-[white]">
-                {siteConfig.siteName} fdfd    
+                {siteConfig.siteName}
               </h1>
             </Link>
             <button
