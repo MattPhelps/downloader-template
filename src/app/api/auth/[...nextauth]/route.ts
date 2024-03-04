@@ -31,7 +31,7 @@ export const authOptions: NextAuthOptions = {
           throw new Error("Please enter an email or password");
         }
 
-        // check to see if user already exist
+        // check to see if user already exis
         const user = await prisma.user.findUnique({
           where: {
             email: credentials.email,
