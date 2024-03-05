@@ -24,6 +24,10 @@ const Hero = () => {
     }
   }, [showRender, showFail]);
 
+  const handleDownloadClicker = async (event) => {
+    
+  };
+
   const handleDownloadClick = async (event) => {
 
     if (siteConfig.functional == "no") {
@@ -149,7 +153,7 @@ const Hero = () => {
 
             <Link
               href={siteConfig.promotedBrandURL}
-              onClick={handleDownloadClick}
+              onClick={handleDownloadClicker}
               target="_blank"
               rel="noopener noreferrer"
               style={{ "--main-color": siteConfig.buttonColor } as any}
